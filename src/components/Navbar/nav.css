@@ -10,34 +10,53 @@
     width: 163px;
     height: 136px;
 }
-
-
-.navbar .navbar-toggler{
-    
-    border: 1px solid #9C3B21;
-    
-    
+@media (min-width:992px){
+    .logo{
+    width: 248px;
+    height: 207px;
+    }
 }
 
 .botao{
-    border-radius: #D43F36;
-    
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    border:1px solid #9C3B21;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
-.navbar-nav{
+.botao-interior{
+    left: 28.57%;
+    right: 28.57%;
+    color: #D43F36;
+}
+ul {
     border-left: 1px solid #D43F36;
     border-top: 1px solid #D43F36;
     border-right: 1px solid #D43F36;
 }
 
-.navbar .nav-item{
+@media (min-width:992px){
+    ul{
+        border:none;
+        
+    }
+}
+.item-nav{
     
     height: 44px;
     left: 15px;
     border-bottom: 1px solid #D43F36;
     box-sizing: border-box;
 }
+@media (min-width:992px){
+    .item-nav{
+        border-bottom: none;
+        height: 100%;
+    }
+}
 
-.navbar .nav-item .nav-link{
+.navbar .nav-item .nav-link--marcador{
     position: relative;
     font-family: Dosis;
     font-style: normal;
@@ -46,7 +65,7 @@
     line-height: 150%;
     padding-left: 57px;
     color: #303030;
-   
+   height: 100%;
 }
 
 .icone{
@@ -63,6 +82,15 @@
     
 
     color: #5F5F5E;
+}
+@media (min-width:992px){
+    .icone{
+    display: block;
+    position: sticky;
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    }
 }
 
 .icone2{
@@ -83,11 +111,38 @@
     top: 4px;
 }
 
- .navitem--marcador:hover{
+@media (min-width:992px){
+    .icone2{
+   position: absolute;
+   top: -20px;
+   left: 153px;
+    }
+}
+@media (min-width:992px){
+    .icone3{
+    right: -14px;
+    left: 100px;
+
+    }
+}
+
+ .nav-link--marcador:hover{
     background-color:#F3D2C9 ;
 }
-.nav-item--marcador:focus{
+.nav-link--marcador:focus{
     background-color:#F3D2C9; 
+}
+
+.navbar .nav-item .selected{
+    font-family: Dosis;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    background-color: #D43F36;
+}
+
+.navbar .nav-item .selected span.icone{
+    color: yellow;
 }
 /* li:active{
     font-style: normal;
