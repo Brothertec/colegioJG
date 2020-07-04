@@ -10,4 +10,6 @@
 .link-text{
     color: #3A6CB2;
     font-size: 20px;
+    display: block;
+    padding-bottom: 10px;
 }
