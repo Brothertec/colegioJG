@@ -1,0 +1,26 @@
+.section-title {
+    text-align: center;
+}
+
+.section-title-icon {
+    color: #3A6CB2;
+    margin-right: 11px;
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+.section-title-texto {
+    font-size: 24px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+@media(min-width: 992px){
+    .section-title-texto {
+        font-size: 32px;
+    }
+}
+
+
+
+
