@@ -8,7 +8,7 @@ export default function SectionTitle({ iconProps, title }) {
         <h2 className="section-title">
             {iconProps &&
                 <span className="section-title-icon">
-                    <FontAwesomeIcon icon={iconProps[0], iconProps[1]} />
+                    <FontAwesomeIcon icon={iconProps} />
                 </span>
             }
             <span className="section-title-texto">

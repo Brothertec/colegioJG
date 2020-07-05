@@ -1,0 +1,53 @@
+.info-escola-texto-card-1 {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 6px;
+}
+
+.info-escola-texto-card-2 {
+    display: block;
+    text-align: center;
+}
+
+
+.info-escola-texto-card-2-principal {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.info-escola-texto-card-2-secundario {
+    font-size: 24px
+}
+
+.text-color-black{
+    color: #363636;
+}
+
+.text-color-white{
+    color: #FFF;
+}
+
+.info-escola-card-group {
+    padding-top: 33px;
+}
+
+@media (min-width: 992px){
+    .info-escola-card-group {
+        display: flex;
+    }
+    
+}
+
+.info-escola {
+    padding-top: 42px;
+    padding-bottom: 38px;
+}
+
+@media (min-width: 992px){
+    .info-escola {
+        padding-top: 68px;
+        padding-bottom: 80px;
+    }
+    
+}
