@@ -14,7 +14,7 @@ export default function LinkBorder({ title, iconProps, children, lock }) {
                     <FontAwesomeIcon icon={[iconProps[0], iconProps[1]]} />
                 </span>
                 <span className='link-border-icon-cadeado'>
-                    <FontAwesomeIcon icon={'fas', 'lock'} />
+                    <FontAwesomeIcon icon={['fas', 'lock']} />
                 </span>
             </div>
             <div className="link-border-links">
