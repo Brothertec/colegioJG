@@ -7,6 +7,7 @@ import { faHome, faUsers, faMusic,faChalkboardTeacher, faHandHoldingHeart, faLoc
 
 
 import './nav.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,19 +25,19 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item item-nav">
-                                <a className="nav-link item-nav--marcador nav-link--marcador selected" href="#"><span className="icone"><FontAwesomeIcon  icon={faHome}/></span>Início <span className="sr-only">(current)</span></a>
+                                <Link className="nav-link item-nav--marcador nav-link--marcador selected" href="#"><span className="icone"><FontAwesomeIcon  icon={faHome}/></span>Início <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item item-nav">
-                                <a className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faUsers}/></span>Sobre Nós</a>
+                                <Link className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faUsers}/></span>Sobre Nós</Link>
                             </li>
                             <li className="nav-item item-nav">
-                                <a className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faMusic}/></span>Musicalização<span className="icone2"><FontAwesomeIcon   icon={faLock}/></span></a>
+                                <Link className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faMusic}/></span>Musicalização<span className="icone2"><FontAwesomeIcon   icon={faLock}/></span></Link>
                             </li>
                             <li className="nav-item item-nav">
-                                <a className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faChalkboardTeacher}/></span>Aulas<span className="icone2 icone3"><FontAwesomeIcon  icon={faLock}/></span></a>
+                                <Link className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faChalkboardTeacher}/></span>Aulas<span className="icone2 icone3"><FontAwesomeIcon  icon={faLock}/></span></Link>
                             </li>
                             <li className="nav-item item-nav">
-                                <a className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faHandHoldingHeart}/></span>Doações</a>
+                                <Link className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faHandHoldingHeart}/></span>Doações</Link>
                             </li>
 
 

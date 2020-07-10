@@ -4,6 +4,8 @@ import AprendizadoAliado from '../components/compositions/AprendizadoAliado';
 import AreaAluno from '../components/compositions/AreaAlunos';
 import Mapa from '../components/compositions/Mapa';
 import Navbar from '../components/Navbar';
+import Doacoes from '../components/compositions/Doacoes';
+import Footer from '../components/compositions/Footer';
 
 
 export default function Home() {
@@ -13,7 +15,9 @@ export default function Home() {
             <InfoEscola/>
             <AprendizadoAliado/>
             <AreaAluno/>
+            <Doacoes/>
             <Mapa/>
+            <Footer/>
         </div>
     );
 }
