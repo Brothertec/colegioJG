@@ -1,3 +1,44 @@
-.aprendizado-aliado{
+.aprendizado-aliado {
+    padding-top: 42px;
+
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #CAD9EE 100%), #FFFFFF;
+}
+
+.aprendizado-aliado-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+
+}
+
+.aprendizado-aliado-imgs-div {
+    padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .aprendizado-aliado-imgs-div {
+        padding-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.leaf-image {
+    margin-top: 11px;
+    width: 100%;
+    height: 43px;
+    background-image: url("../../../image/sectionAprendizado/bg-plantas.png");
+}
+
+@media (min-width: 992px) {
+    .leaf-image {
+        margin-top: 0px;
+    }
+}
+
+.green-separator {
+    width: 100%;
+    height: 15px;
+    background-color: #179D63;
 }

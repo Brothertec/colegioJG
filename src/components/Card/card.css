@@ -1,0 +1,17 @@
+.card-info-escola {
+    width: 255px;
+    height: 255px;
+    position: relative;
+    margin-bottom: 16px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-info-escola-centered-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
