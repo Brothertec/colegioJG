@@ -1,0 +1,25 @@
+.rotate {
+    display: inline-block;
+    transform: rotate(-30grad);
+}
+
+.link-icon-footer {
+    margin-left: 8px;
+}
+
+.link-text-footer{
+    color: #FFFFFF;
+    font-size: 16px;
+    display: block;
+    padding-bottom: 11px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    
+}
+@media (min-width:992px){
+    .link-text-footer{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+}

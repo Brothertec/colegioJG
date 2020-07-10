@@ -7,18 +7,18 @@
     background-color: #F0F0F5;
 }
 .logo{
-    width: 163px;
-    height: 136px;
+    width: 100px;
+    height: auto;
 }
 @media (min-width:992px){
     .logo{
-    width: 248px;
-    height: 207px;
+    width: 152px;
+    height: auto;
     }
 }
 
 .botao{
-    padding: 10px 20px;
+    padding: 4px 14px;
     font-size: 30px;
     background-color: #FFFFFF;
     border:1px solid #9C3B21;
@@ -30,6 +30,24 @@
     right: 28.57%;
     color: #D43F36;
 }
+.navbar-nav{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 11px;
+    margin-bottom: 7px;
+}
+
+@media(min-width:992px){
+    .navbar-nav{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
 ul {
     border-left: 1px solid #D43F36;
     border-top: 1px solid #D43F36;
