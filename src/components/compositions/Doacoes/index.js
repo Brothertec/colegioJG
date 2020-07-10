@@ -12,27 +12,31 @@ export default function Doacoes() {
         <div className="total">
             <div className="container">
                 <SectionTitle iconProps={['fas', 'hand-holding-heart']} title="Doações" />
-                <div className="desk">
-                    <div>
-                        <div className="foto">
+                <div className="doacoes-espacamento-titulo">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <div className="doacoes-alinhamento-foto">
+                                <div className="foto">
 
 
-                            <img className="foto2" src={Foto2} alt="" />
+                                    <img className="foto2" src={Foto2} alt="" />
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div className="total1">
-                        <div className="titulo">
-                            <h2>A sua ajuda pode fazer toda a diferença!</h2>
-                        </div>
-                        <div className="texto">
-                            <h3 >Nós prestamos um trabalho social para a comunidade do Itapuã, arrecadando fundos para escolarizar crianças carentes.</h3>
-                            <h3 > <br />Para que isso seja possível, contamos com a colaboração da sociedade.</h3>
-                            <h3 ><br />Com a sua ajuda, poderemos manter um aluno parcial ou integralmente.</h3>
-                        </div>
+                        <div className="col-lg-6 total1">
+                            <div className="titulo">
+                                <h2>A sua ajuda pode fazer toda a diferença!</h2>
+                            </div>
+                            <div className="texto">
+                                <h3 >Nós prestamos um trabalho social para a comunidade do Itapuã, arrecadando fundos para escolarizar crianças carentes.</h3>
+                                <h3 > <br />Para que isso seja possível, contamos com a colaboração da sociedade.</h3>
+                                <h3 ><br />Com a sua ajuda, poderemos manter um aluno parcial ou integralmente.</h3>
+                            </div>
 
-                        <div className="link-doacao">
+                            <div className="link-doacao">
 
-                            <LinkWithIcon text='Saiba mais' path='#' />
+                                <LinkWithIcon text='Saiba mais' path='#' />
+                            </div>
                         </div>
                     </div>
                 </div>

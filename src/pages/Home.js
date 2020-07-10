@@ -11,7 +11,7 @@ import Footer from '../components/compositions/Footer';
 export default function Home() {
     return(
         <div className="home">
-            <Navbar/>
+            <Doacao/>
             <InfoEscola/>
             <AprendizadoAliado/>
             <AreaAluno/>

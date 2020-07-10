@@ -6,7 +6,7 @@
 
 .foto{
     background-image: url('../../../image/Rectangle\ 10.png');
-    background-repeat: no-repeat;
+    background-repeat: round;
     
     display: block;
     margin-left: auto;
@@ -16,6 +16,11 @@
     position: relative;
     margin-top: 34px;
     margin-bottom: 34px;
+}
+@media (min-width:992px){
+    .doacoes-alinhamento-foto{
+
+    }
 }
 
 @media (min-width:992px){
@@ -94,7 +99,8 @@ color: #303030;
 }
 
 @media (min-width:992px){
-    .texto{
+    .doacoes-espacamento-titulo{
+
         
     }
 }
