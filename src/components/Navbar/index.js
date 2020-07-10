@@ -13,7 +13,7 @@ import './nav.css';
 export default function Navbar() {
     return (
         <div className="fundo">
-            <nav className="navbar navbar-expand-lg fundo-navbar">
+            <nav className="navbar navbar-expand-lg fundo-navbar nav-no-padding">
                 <div className="container">
                     <a className="navbarlogo" href="#">
                         <img className="logo" src={logoJG} alt="logo" />
