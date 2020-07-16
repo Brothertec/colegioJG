@@ -13,9 +13,9 @@ export default function Doacoes() {
             <div className="container">
                 <SectionTitle iconProps={['fas', 'hand-holding-heart']} title="Doações" />
                 <div className="doacoes-espacamento-titulo">
-                    <div className="row">
+                    <div className="row doacoes-alinhamento-foto">
                         <div className="col-lg-6">
-                            <div className="doacoes-alinhamento-foto">
+                            <div className="">
                                 <div className="foto">
 
 
