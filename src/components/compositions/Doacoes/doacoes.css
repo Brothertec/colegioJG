@@ -19,12 +19,13 @@
 }
 @media (min-width:992px){
     .doacoes-alinhamento-foto{
-
+align-items: center;
     }
 }
 
 @media (min-width:992px){
     .foto{
+        
     width: 350px;
     height: 350px;
     background-repeat:inherit ;
@@ -58,7 +59,7 @@ border-radius: 4px;
 }
 @media (min-width:992px){
     .total1{
-
+      margin-top: 32px;
     }
 }
 @media (min-width:992px){
@@ -87,6 +88,7 @@ color: #D43F36;
     padding-left: 28px;
     padding-right: 28px;
 }
+
 .texto{
    padding-bottom: 17px;
    

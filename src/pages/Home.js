@@ -5,12 +5,13 @@ import AreaAluno from '../components/compositions/AreaAlunos';
 import Mapa from '../components/compositions/Mapa';
 import Navbar from '../components/Navbar';
 import Doacao from '../components/compositions/Doacoes'
+import Carousel from '../components/compositions/Carousel';
 
 
 export default function Home() {
     return(
         <div className="home">
-            <Doacao/>
+            <Carousel/>
             {/* <InfoEscola/>
             <AprendizadoAliado/>
             <AreaAluno/>
