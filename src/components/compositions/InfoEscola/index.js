@@ -13,10 +13,10 @@ export default function InfoEscola() {
     return (
         <section className="info-escola">
             <div className="container">
-                <SectionTitle title='Eduacação Infantil e Fundamental de Qualidade'/>
+                <SectionTitle title='Educação Infantil e Fundamental de Qualidade'/>
                 <div className="info-escola-card-group">
                     <Card backgroudImg={img1}>
-                        <span className="info-escola-texto-card-1 text-color-white">Bercario</span>
+                        <span className="info-escola-texto-card-1 text-color-white">Berçário</span>
                         <span className="info-escola-texto-card-1 text-color-white">Educação Infantil</span>
                         <span className="info-escola-texto-card-1 text-color-white">Ensino Fundamental 1</span>
                     </Card>

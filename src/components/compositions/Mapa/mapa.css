@@ -1,4 +1,10 @@
 .mapa-iframe {
     width: 100%;
     height: 305px;
+    margin: 0;
+    padding: 0;
+}
+
+.mapa {
+    height: 305px;
 }

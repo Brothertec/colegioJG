@@ -4,13 +4,15 @@ import AprendizadoAliado from '../components/compositions/AprendizadoAliado';
 import AreaAluno from '../components/compositions/AreaAlunos';
 import Mapa from '../components/compositions/Mapa';
 import Navbar from '../components/Navbar';
-import Doacao from '../components/compositions/Doacoes'
+import Doacoes from '../components/compositions/Doacoes'
 import Carousel from '../components/compositions/Carousel';
+import Footer from '../components/compositions/Footer';
 
 
 export default function Home() {
     return(
         <div className="home">
+            <Navbar/>
             <Carousel/>
             <InfoEscola/>
             <AprendizadoAliado/>

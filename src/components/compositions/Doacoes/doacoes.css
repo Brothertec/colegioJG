@@ -69,13 +69,15 @@ border-radius: 4px;
     }
 }
 .titulo{
-  padding-top: 33px;
-  padding-bottom: 24px;
-font-style: normal;
-font-weight: 700;
-font-size: 23px;
-line-height: 150%;
-color: #D43F36;
+    padding-top: 33px;
+    padding-bottom: 24px;
+    font-style: normal;
+    font-weight: 700;   
+    font-size: 24px;
+    line-height: 150%;
+    color: #D43F36;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 @media (min-width:992px){
@@ -84,20 +86,17 @@ color: #D43F36;
     }
 }
 
-.titulo h2{
-    padding-left: 28px;
-    padding-right: 28px;
-}
 
 .texto{
-   padding-bottom: 17px;
-   
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 150%;
-color: #303030;
-
+    padding-bottom: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #303030;
+    text-align: left;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 @media (min-width:992px){
@@ -106,11 +105,7 @@ color: #303030;
         
     }
 }
-.texto h3{
-    text-align: left;
-    padding-left: 28px;
-    padding-right: 28px;
-}
+
 .link-doacao{
     padding-bottom: 35px ;
     font-weight: 500;

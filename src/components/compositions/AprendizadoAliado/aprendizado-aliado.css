@@ -16,7 +16,7 @@
     padding-top: 40px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .aprendizado-aliado-imgs-div {
         padding-top: 32px;
         display: flex;
