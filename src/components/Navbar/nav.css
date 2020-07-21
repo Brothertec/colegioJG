@@ -9,12 +9,16 @@
 .logo{
     width: 100px;
     height: auto;
+    padding-top: 9px;
+    padding-bottom: 11px;
 }
 @media (min-width:992px){
     .logo{
         width: 152px;
         height: auto;
         margin: 9px 0;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }
 
@@ -44,7 +48,7 @@
     margin-bottom: 0;
     list-style: none;
     margin-top: 11px;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
 }
 
 @media(min-width:992px){
@@ -86,7 +90,7 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 150%;
+    line-height: 125%;
     padding-left: 57px;
     color: #303030;
    height: 100%;
@@ -116,7 +120,7 @@ ul {
 @media (min-width:992px){
     .icone{
     display: block;
-    position: sticky;
+    position: initial;
     text-align: center;
     font-size: 40px;
     line-height: 46px;
@@ -171,7 +175,7 @@ ul {
 }
 
 .navbar .nav-item .selected span.icone{
-    color: yellow;
+    color:#E9CC1D;
 }
 /* li:active{
     font-style: normal;

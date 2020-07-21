@@ -1,0 +1,19 @@
+.icon-whith-text-icone{
+    font-size: 20px;
+    line-height: 150%;
+    padding-right: 9px;
+}
+
+.icon-whith-text-texto{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    vertical-align: baseline;
+}
+
+@media (min-width:992px){
+    .icon-whith-text-texto{
+        font-size: 20px;
+        padding-top: 29px;
+    }
+}

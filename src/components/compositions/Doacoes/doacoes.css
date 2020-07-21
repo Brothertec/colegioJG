@@ -4,6 +4,12 @@
     padding-top: 33px;
 }
 
+@media (min-width:992px){
+    .total{
+        padding-top: 63px;
+    }
+}
+
 .foto{
     background-image: url('../../../image/Rectangle\ 10.png');
     background-repeat: round;
@@ -76,13 +82,14 @@ border-radius: 4px;
     font-size: 24px;
     line-height: 150%;
     color: #D43F36;
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 @media (min-width:992px){
     .titulo{
-        font-weight: 600
+        font-weight: 600;
+        padding-right: 0;
     }
 }
 
@@ -95,7 +102,7 @@ border-radius: 4px;
     line-height: 150%;
     color: #303030;
     text-align: left;
-    padding-left: 28px;
+    padding-left: 30px;
     padding-right: 28px;
 }
 
@@ -107,7 +114,7 @@ border-radius: 4px;
 }
 
 .link-doacao{
-    padding-bottom: 35px ;
+    padding-bottom: 25px ;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
