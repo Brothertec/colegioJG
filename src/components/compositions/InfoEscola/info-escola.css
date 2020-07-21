@@ -32,12 +32,6 @@
     padding-top: 33px;
 }
 
-@media (min-width: 992px){
-    .info-escola-card-group {
-        display: flex;
-    }
-    
-}
 
 .info-escola {
     padding-top: 42px;
@@ -50,4 +44,10 @@
         padding-bottom: 80px;
     }
     
+}
+
+@media (max-width:1199px) and (min-width:992px) {
+    .info-escola-texto-card-1 {
+       font-size: 20px;
+    }
 }

@@ -24,6 +24,13 @@
     }
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+    .aprendizado-aliado-imgs-div {
+        padding-left: 104px;
+        padding-right: 104px;
+    }
+}
+
 .leaf-image {
     margin-top: 11px;
     width: 100%;

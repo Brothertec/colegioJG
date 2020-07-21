@@ -14,6 +14,7 @@
     font-weight: 500;
     padding: 5px 45px 5px 5px;
     position: relative;
+    height: 54px;
     
 }
 
@@ -46,10 +47,20 @@
     top: 14px;
     right: 21px;
 }
+
+@media (min-width: 992px){
+    .link-border-icon-cadeado{
+        font-size: 17.5px;
+        height: 35px;
+        width: 35px;
+        top: 9px;
+    }
+}
+
+
 .link-border-titulo-text {
     display: inline-block;
     vertical-align: middle;
-
 }
 
 .link-border-icon-cadeado svg{

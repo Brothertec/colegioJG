@@ -13,23 +13,33 @@ export default function InfoEscola() {
     return (
         <section className="info-escola">
             <div className="container">
-                <SectionTitle title='Educação Infantil e Fundamental de Qualidade'/>
+                <SectionTitle title='Educação Infantil e Fundamental de Qualidade' />
                 <div className="info-escola-card-group">
-                    <Card backgroudImg={img1}>
-                        <span className="info-escola-texto-card-1 text-color-white">Berçário</span>
-                        <span className="info-escola-texto-card-1 text-color-white">Educação Infantil</span>
-                        <span className="info-escola-texto-card-1 text-color-white">Ensino Fundamental 1</span>
-                    </Card>
-                    <Card backgroudImg={img2}>
-                        <span className="info-escola-texto-card-2 info-escola-texto-card-2-principal text-color-white">Escola Bilíngue</span>
-                        <span className="info-escola-texto-card-2 info-escola-texto-card-2-secundario text-color-white">Inglês e Espanhol</span>
-                    </Card>
-                    <Card backgroudImg={img4}>
-                        <span className="info-escola-texto-card-2 info-escola-texto-card-2-principal text-color-white">Recreação e Biblioteca</span>
-                    </Card>
-                    <Card backgroudImg={img3}>
-                        <span className="info-escola-texto-card-2 info-escola-texto-card-2-principal text-color-black">Atividades Especiais</span>
-                    </Card>
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <Card backgroudImg={img1}>
+                                <span className="info-escola-texto-card-1 text-color-white">Berçário</span>
+                                <span className="info-escola-texto-card-1 text-color-white">Educação Infantil</span>
+                                <span className="info-escola-texto-card-1 text-color-white">Ensino Fundamental 1</span>
+                            </Card>
+                        </div>
+                        <div className="col-lg-3">
+                            <Card backgroudImg={img2}>
+                                <span className="info-escola-texto-card-2 info-escola-texto-card-2-principal text-color-white">Escola Bilíngue</span>
+                                <span className="info-escola-texto-card-2 info-escola-texto-card-2-secundario text-color-white">Inglês e Espanhol</span>
+                            </Card>
+                        </div>
+                        <div className="col-lg-3">
+                            <Card backgroudImg={img4}>
+                                <span className="info-escola-texto-card-2 info-escola-texto-card-2-principal text-color-white">Recreação e Biblioteca</span>
+                            </Card>
+                        </div>
+                        <div className="col-lg-3">
+                            <Card backgroudImg={img3}>
+                                <span className="info-escola-texto-card-2 info-escola-texto-card-2-principal text-color-black">Atividades Especiais</span>
+                            </Card>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
