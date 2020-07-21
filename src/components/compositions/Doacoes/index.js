@@ -14,14 +14,14 @@ export default function Doacoes() {
                 <SectionTitle iconProps={['fas', 'hand-holding-heart']} title="Doações" />
                 <div className="doacoes-espacamento-titulo">
                     <div className="row doacoes-alinhamento-foto">
-                        <div className="col-lg-6">
+                        <div className="col-lg-4 offset-lg-1">
                             <div className="">
                                 <div className="foto">
                                     <img className="foto2" src={Foto2} alt="" />
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-5 offset-lg-1">
                             <div className="total1">
                                 <h3 className="titulo">A sua ajuda pode fazer toda a diferença!</h3>
                                 <div className="texto">
