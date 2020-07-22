@@ -11,7 +11,7 @@ import './footer.css';
 
 export default function Footer() {
     return (
-        <footer className="">
+        <footer className="footer">
             <div className="superior">
                 <div className="container">
                     <div className="row">
@@ -34,11 +34,11 @@ export default function Footer() {
                                     <IconWhithText iconProps={['fas', 'phone-alt']} text='(61) 3488-1608' />
                                 </li>
                                 <li className="centro centro2 centro3">
-                                    <IconWhithText iconProps={['fab', 'whatsapp']} text='(61) 9 9155-7717'/>
-                                    </li>
+                                    <IconWhithText iconProps={['fab', 'whatsapp']} text='(61) 9 9155-7717' />
+                                </li>
                                 <li className="centro">
-                                    <IconWhithText iconProps={['fas', 'envelope']} text='escolajardimgetsemani@hotmail.com'/>
-                                    </li>
+                                    <IconWhithText iconProps={['fas', 'envelope']} text='escolajardimgetsemani@hotmail.com' />
+                                </li>
                             </ul>
                         </div>
 
@@ -63,9 +63,7 @@ export default function Footer() {
                         </div>
                         <div className="col-lg-6">
                             <div className="footer-logo">
-                                <div className="desenvolve">
-                                    <span>Desenvolvido por</span>
-                                </div>
+                                <span className="desenvolve">Desenvolvido por</span>
                                 <div className="iconebt">
                                     <a href="">
                                         <img src={LogoBT} alt="logo" />
