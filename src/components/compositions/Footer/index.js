@@ -1,8 +1,8 @@
 import React from 'react';
-import LogoBT from '../../../image/logo-horizontal-fundo-claro--sem-slogan.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import LinkWithIconFooter from '../../LinkWithIconFooter';
 import IconWhithText from '../../IconWhithText';
+
 
 import './footer.css';
 
@@ -53,27 +53,8 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="rodape">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="direitos">
-                                <span >© 2020. Todos os direitos reservados.</span>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="footer-logo">
-                                <span className="desenvolve">Desenvolvido por</span>
-                                <div className="iconebt">
-                                    <a href="">
-                                        <img src={LogoBT} alt="logo" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+            
         </footer >
     )
 

@@ -1,0 +1,149 @@
+.l-position-doacao{
+    padding-top: 30px;
+    padding-bottom: 54px;
+}
+
+@media (min-width:992px){
+    .l-position-doacao{
+        padding-top: 68px;
+        padding-bottom: 80px;
+    }
+}
+
+.l-position-titulo-doacao{
+    padding-bottom: 20px;
+}
+
+@media (min-width:992px){
+    .l-position-titulo-doacao{
+
+    }
+}
+.doacao-dados{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (min-width:992px){
+    .doacao-dados{
+
+    }
+}
+
+.subtitulo-doacao{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    color: #363636;
+    padding-bottom: 20px;
+}
+
+
+@media (min-width:992px){
+    .subtitulo-doacao{
+        font-size: 24px;
+    }
+}
+.texto-doacao{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    color: #363636;
+    padding-bottom: 18px;
+}
+
+@media (min-width:992px){
+    .texto-doacao{
+    font-size: 24px;
+    }
+}
+.dados-bancarios{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150%;
+    color: #363636;
+}
+
+@media (min-width:992px){
+    .dados-bancarios{
+        font-size: 32px;
+    }
+}
+
+
+.texto-dados-bancarios{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #363636;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media (min-width:992px){
+    .texto-dados-bancarios{
+        font-size: 30px;
+        line-height: 46px;
+    }
+}
+
+.fundo-m-c{
+    background: rgba(0, 0, 0, 0.65);
+}
+.img-modal-doacao{
+    width: 270px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (min-width:992px){
+    .img-modal-doacao{
+        width: 340px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+}
+
+
+.frase-doacao{
+    height: 131px;
+    width: auto;
+    background: #CAD9EE;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media (min-width:992px){
+    .frase-doacao{
+        margin-top: 54px;
+    }
+}
+
+.texto-frase-doacao{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #363636;
+    text-align: center;
+    
+}
+
+@media (min-width:992px){
+    .texto-frase-doacao{
+        font-size: 24px;
+    }
+}

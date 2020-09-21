@@ -1,0 +1,74 @@
+
+
+.card-doacao{
+    border-bottom: 1px solid #C4C4C4;
+    margin-top: 30px;
+    border-radius: 0;
+    box-shadow: 0px 3px 15px rgba(22, 41, 124, 0.1);
+    
+}
+@media(min-width:992px){
+    .card-doacao{
+        margin-top: 32px;
+        
+    }
+}
+
+.titulo-card-doacao{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #3E4095;
+    border-bottom: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+@media(min-width:992px){
+    .titulo-card-doacao{
+        font-size: 26px;
+        height: 138px;
+    }
+}
+
+.corpo-card{
+    padding: 28px 34px 0px;
+
+}
+
+.texto-card-doacao{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+
+    color: #363636;
+    
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media(min-width:992px){
+    .texto-card-doacao{
+        font-size: 18px;
+        
+    }
+}
+
+@media(min-width:1200px){
+    .texto-card-doacao{
+        font-size: 18px;
+       
+    }
+}

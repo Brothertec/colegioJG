@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/compositions/Footer';
+import Navbar from '../../components/Navbar';
+import Footer from '../../components/compositions/Footer';
+import Copyright from '../../components/Copyright';
 
 
 export default function Aulas() {
@@ -12,6 +13,7 @@ export default function Aulas() {
 
 
             <Footer />
+            <Copyright/>
         </div>
     );
 }
