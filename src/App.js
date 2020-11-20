@@ -6,7 +6,7 @@ import { faGraduationCap, faChalkboardTeacher, faLock, faMusic, faMapMarkerAlt, 
 import { faArrowAltCircleRight } from '@fortawesome/free-regular-svg-icons';
 import Routes from './routes';
 
-const TarefaContext = React.createContext('Bercario');
+const TarefaContext = React.createContext('');
 
 library.add(fab, faGraduationCap, faArrowAltCircleRight, faChalkboardTeacher,faLock, faMusic,faMapMarkerAlt, faPhoneAlt, faEnvelope, faHandHoldingHeart, faChevronLeft, faChevronRight);
 

@@ -11,6 +11,7 @@ export default function LogonTarefas() {
 
     const {tarefa, setTarefa} = useContext(TarefasContext);
 
+
     const history = useHistory();
 
     var bercario = 'BEREJG';
@@ -23,15 +24,10 @@ export default function LogonTarefas() {
     var terceiroAno = 'IROANOEJG';
     var quartoAno = 'TOANOEJG';
 
-    function setTarefaSelecionada(event) {
+    function setTarefaSelecionada() {
+        var turma = document.querySelector('#turma').value;
 
-        var turma = event.target.value;
-
-        if (turma === 'Bercario' ) {
-
-        }
-        
-
+        setTarefa(turma);
     }
 
 
@@ -46,12 +42,14 @@ export default function LogonTarefas() {
             || (tarefa === 'Infantil5' && senhaInformada === infantil5) || (tarefa === 'PrimeiroAno' && senhaInformada === primeiroAno)
             || (tarefa === 'SegundoAno' && senhaInformada === segundoAno) || (tarefa === 'TerceiroAno' && senhaInformada === terceiroAno)
             || (tarefa === 'QuartoAno' && senhaInformada === quartoAno)) {
+
+            setTarefaSelecionada();
             console.log('Redirect');
 
             history.push('/tarefas');
         }
         else {
-
+            setTarefa("");
             divErro.classList.remove("d-none");
         }
 
@@ -68,9 +66,9 @@ export default function LogonTarefas() {
                         <SectionTitle title="Selecione a turma e digite a senha" />
                         <div className="form-group">
 
-                            <label className="logon-tarefas-label" for="validationServer01">Turma</label>
-                            <select onChange={setTarefaSelecionada} className="form-control logon-tarefas-text" id="turma">
-                                <option selected>Escolha a turma</option>
+                            <label className="logon-tarefas-label" htmlFor="turma">Turma</label>
+                            <select onChange={setTarefaSelecionada} className="form-control logon-tarefas-text" id="turma" defaultValue="default">
+                                <option value="default">Escolha a turma</option>
                                 <option value="Bercario">Berçario I & II</option>
                                 <option value="Infantil2">Infantil II (2 anos)</option>
                                 <option value="Infantil3">Infantil III (3 anos)</option>
@@ -84,7 +82,7 @@ export default function LogonTarefas() {
                         </div>
 
                         <div className="form-group">
-                            <label className="logon-tarefas-label" for="validationServer01">Senha de acesso</label>
+                            <label className="logon-tarefas-label" htmlFor="senha">Senha de acesso</label>
                             <input type="password" className="form-control logon-tarefas-text" id="senha"
                                 placeholder="Senha de acesso" required />
 
@@ -95,7 +93,7 @@ export default function LogonTarefas() {
                             Senha incorreta. Tente novamente
                         </div>
 
-                        <button onClick={validarTarefas} type="button" class="btn btn-primary btn-color" >Entrar</button>
+                        <button onClick={validarTarefas} type="button" className="btn btn-primary btn-color" >Entrar</button>
                     </form>
                 </div>
 
