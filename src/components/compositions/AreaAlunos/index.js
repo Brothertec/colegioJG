@@ -47,7 +47,7 @@ export default function AreaAluno() {
                 <p className="area-aluno-texto area-aluno-texto__espacamento-adicional text-left">
                   A musicalização faz parte do dia-a-dia dos alunos do Colégio Jardim Getsêmani. <br/> Durante esse período de quarentena, ela está sendo realizada aqui, no site da escola.
               </p>
-                <LinkWithIcon text='Acessar o epaço da musicalização' path='/teste' />
+                <LinkWithIcon text='Acessar o epaço da musicalização' path='/Musicalizacao' />
               </LinkBorder>
             </div>
           </div>

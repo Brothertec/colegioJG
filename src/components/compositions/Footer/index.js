@@ -10,6 +10,9 @@ import './footer.css';
 
 
 export default function Footer() {
+    var scrollTop = function() {
+        window.scrollTo(0, 0);
+    }
     return (
         <footer className="footer">
             <div className="superior">
@@ -18,10 +21,10 @@ export default function Footer() {
                         <div className=" col-lg-3">
                             <div className="marge1">
                                 <ul className="lista1">
-                                    <li>  <LinkWithIconFooter text="Sobre Nós" path="#" /></li>
-                                    <li>  <LinkWithIconFooter text="Musicalização" path="#" /></li>
-                                    <li>  <LinkWithIconFooter text="Tarefas" path="#" /></li>
-                                    <li>  <LinkWithIconFooter text="Doações" path="#" /></li>
+                                    <li>  <LinkWithIconFooter text="Sobre Nós" path="/Sobre" /></li>
+                                    <li>  <LinkWithIconFooter text="Musicalização" path="/Musicalizacao" /></li>
+                                    <li>  <LinkWithIconFooter text="Tarefas" path="/Aulas" /></li>
+                                    <li>  <LinkWithIconFooter text="Doações" path="/Doacao" /></li>
                                 </ul>
                             </div>
                         </div>
@@ -46,8 +49,8 @@ export default function Footer() {
                         <div className=" col-lg-4">
                             <div className="marge2">
                                 <a className="icones" href=""><span><FontAwesomeIcon icon={['fab', 'whatsapp-square']} /></span></a>
-                                <a className="iconec" href=""><span><FontAwesomeIcon icon={['fab', 'facebook-square']} /></span></a>
-                                <a className="icones" href=""><span><FontAwesomeIcon icon={['fab', 'instagram-square']} /></span></a>
+                                <a className="iconec" href="https://www.facebook.com/Colégio-Jardim-Getsêmani-107998397345213"><span><FontAwesomeIcon icon={['fab', 'facebook-square']} /></span></a>
+                                <a className="icones" href="https://www.instagram.com/colegiojardimgetsemani/?hl=pt-br"><span><FontAwesomeIcon icon={['fab', 'instagram-square']} /></span></a>
                             </div>
                         </div>
                     </div>

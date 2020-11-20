@@ -5,17 +5,23 @@ import Sobre from './pages/Sobre';
 import Musicalizacao from './pages/Musicalizacao';
 import Aulas from './pages/Aulas';
 import Doacao from './pages/Doacao';
+import Tarefas from './components/compositions/Tarefas';
+import TarefasProvider from './context/TarefasContext';
 
 
-export default function Routes(){
-    return(
+export default function Routes() {
+    return (
         <BrowserRouter>
-            <Route component = {Home} path='/' exact/>
-            <Route component ={Sobre} path='/sobre' exact/>
-            <Route component ={Musicalizacao} path='/musicalizacao' exact/>
-            <Route component ={Aulas} path='/aulas' exact/>
-            <Route component ={Doacao} path='/doacao' exact/>
 
+            <TarefasProvider>
+                <Route component={Home} path='/' exact />
+                <Route component={Sobre} path='/sobre' exact />
+                <Route component={Musicalizacao} path='/musicalizacao' exact />
+                <Route component={Aulas} path='/aulas' exact />
+                <Route component={Doacao} path='/doacao' exact />
+                <Route component={Tarefas} path='/tarefas' exact />
+
+            </TarefasProvider>
 
         </BrowserRouter>
     );

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/compositions/Footer';
 import Copyright from '../../components/Copyright';
+import LogonTarefas from '../../components/compositions/LogonTarefas';
 
 
 export default function Aulas() {
@@ -9,7 +10,7 @@ export default function Aulas() {
         <div className="aulas">
             <Navbar />
 
-            <h1>TESTE</h1>
+            <LogonTarefas/>
 
 
             <Footer />

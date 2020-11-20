@@ -21,7 +21,7 @@ export default function Copyright() {
                                 <span>Desenvolvido por</span>
                             </div>
                             <div className="iconebt">
-                                <a href="">
+                                <a href="http://www.brothertec.com.br">
                                     <img src={LogoBT} alt="logo" />
                                 </a>
                             </div>

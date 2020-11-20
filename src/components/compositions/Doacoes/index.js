@@ -30,7 +30,7 @@ export default function Doacoes() {
                                     <p><br />Com a sua ajuda, poderemos manter um aluno parcial ou integralmente.</p>
                                 </div>
                                 <div className="link-doacao">
-                                    <LinkWithIcon text='Saiba mais' path='#' />
+                                    <LinkWithIcon text='Saiba mais' path='/Doacao' />
                                 </div>
                             </div>
                         </div>

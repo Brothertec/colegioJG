@@ -92,3 +92,15 @@ padding-right: 9px;
    margin-left: 64px;
 
 }
+
+.icones:hover{
+    color: #E9CC1D; 
+ }
+
+.iconec:hover{
+    color: #E9CC1D;
+ }
+
+.lista1 .link-text-footer:hover{
+    color: #E9CC1D; 
+}

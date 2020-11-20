@@ -1,0 +1,43 @@
+.logon-tarefas-position{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+@media (min-width: 992px){
+    .logon-tarefas-position {
+        margin-top: 68px;
+        margin-bottom: 54px;
+    }
+}
+
+.logon-tarefas-label{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.logon-tarefas-text{
+    font-size: 20px;
+    
+}
+
+
+.btn-color{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    background-color:  #D43F36;
+    border-color:  #D43F36;
+}
+
+.btn-color:hover{
+    color: #E9CC1D;
+    background-color:#b1211a;
+    border-color: #b1211a;
+}
+
+.btn-color:focus{
+    color: #E9CC1D;
+    background-color:#b1211a;
+    border-color: #b1211a;
+}
