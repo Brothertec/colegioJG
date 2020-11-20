@@ -31,7 +31,8 @@ export default function LogonTarefas() {
     }
 
 
-    function validarTarefas() {
+    function validarTarefas(event) {
+        event.preventDefault();
         var divErro = document.querySelector('#msgErro');
         divErro.classList.add('d-none');
         var senhaInformada = document.querySelector('#senha').value;
@@ -62,7 +63,7 @@ export default function LogonTarefas() {
             <div className="container">
                 <div className="logon-tarefas-position">
 
-                    <form>
+                    <form onSubmit={validarTarefas}>
                         <SectionTitle title="Selecione a turma e digite a senha" />
                         <div className="form-group">
 
@@ -93,7 +94,7 @@ export default function LogonTarefas() {
                             Senha incorreta. Tente novamente
                         </div>
 
-                        <button onClick={validarTarefas} type="button" className="btn btn-primary btn-color" >Entrar</button>
+                        <button type="submit" className="btn btn-primary btn-color" >Entrar</button>
                     </form>
                 </div>
 
