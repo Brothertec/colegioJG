@@ -1,0 +1,22 @@
+.titulo-musica{
+   font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 56px;
+    
+    }
+
+.titulo-video{
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 46px;
+    margin-bottom: 18px;
+}
+
+.video-posicao{
+    margin-bottom: 30px;
+}

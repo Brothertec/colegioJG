@@ -7,6 +7,7 @@ import Aulas from './pages/Aulas';
 import Doacao from './pages/Doacao';
 import Tarefas from './components/compositions/Tarefas';
 import TarefasProvider from './context/TarefasContext';
+import TarefasD from './components/TarefaD';
 
 
 export default function Routes() {
@@ -20,6 +21,8 @@ export default function Routes() {
                 <Route component={Aulas} path='/aulas' exact />
                 <Route component={Doacao} path='/doacao' exact />
                 <Route component={Tarefas} path='/tarefas' exact />
+                <Route component={TarefasD} path='/tarefasd' exact />
+
 
             </TarefasProvider>
 

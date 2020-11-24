@@ -1,0 +1,61 @@
+.titulo-tarefa{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 56px;
+}
+
+.texto-tarefa{
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.texto-video-tarefa{
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+
+.tarefa-video-posicao{
+    margin-bottom: 40px;
+}
+
+.aviso-prova{
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.prova-tarefa{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 56px;
+}
+
+.texto-prova{
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.aviso-prova{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #D43F36;;
+}
