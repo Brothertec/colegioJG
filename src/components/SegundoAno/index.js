@@ -378,13 +378,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/GoK6bZOfEzs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GoK6bZOfEzs"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/CrakjZmsi-k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/CrakjZmsi-k"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -392,13 +396,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/a3T6_QfukDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/a3T6_QfukDs"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/q9iLvFu3_s8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/q9iLvFu3_s8"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                   
@@ -479,13 +487,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/xqOFHnncj98" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xqOFHnncj98"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/6y4jS2m8Mg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/6y4jS2m8Mg0"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -493,13 +505,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/5MfZ2p1DeCM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5MfZ2p1DeCM"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/xc7pfDXh_no" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xc7pfDXh_no"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                    
@@ -547,13 +563,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/Hqkndg6IQC4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Hqkndg6IQC4"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/t3xiWYDb8tU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/t3xiWYDb8tU"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -561,13 +581,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/sTFU3VhupUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/sTFU3VhupUI"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/5NDgpXGBJ4g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5NDgpXGBJ4g"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     
@@ -623,13 +647,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/clkpTq5Xwz8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/clkpTq5Xwz8"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/4reGtnzDddw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/4reGtnzDddw"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -637,13 +665,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9 ">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/gAstseeFbRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/gAstseeFbRI"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/FAWZvCLHzGM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/FAWZvCLHzGM"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -718,13 +750,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/zsuGwcOO0jE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/zsuGwcOO0jE"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/nlTt_LOSWoA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/nlTt_LOSWoA"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -732,13 +768,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/lgc1bAmYjnE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/lgc1bAmYjnE"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/krehgUBNe34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/krehgUBNe34"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                    
@@ -808,13 +848,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/Fypu4CMit_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Fypu4CMit_o"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/xt1fHbD5ejk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xt1fHbD5ejk"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -822,13 +866,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/ut87aGiMDms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ut87aGiMDms"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/6d7okqDsQCU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/6d7okqDsQCU"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                    
@@ -837,13 +885,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 05</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/7UcO347wwjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/7UcO347wwjE"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 06</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/UxGUsbzciP0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UxGUsbzciP0"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                    
@@ -905,13 +957,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/37xN9IRVaZ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/37xN9IRVaZ0"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/DdViJQK5udM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DdViJQK5udM"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -919,7 +975,9 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/cv9RC7nEpDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/cv9RC7nEpDY"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     
@@ -985,13 +1043,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/a5ACJIoRJzo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/a5ACJIoRJzo"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/f9ymDvHh75U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/f9ymDvHh75U"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -999,13 +1061,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/UuiVPfaVVwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UuiVPfaVVwE"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/qhlJKPv-y8w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/qhlJKPv-y8w"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1069,13 +1135,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/ZrEnrsFfpPQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ZrEnrsFfpPQ"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/WpM_sUUtJbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/WpM_sUUtJbk"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1083,7 +1153,9 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/erOw4byT1X0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/erOw4byT1X0"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                    
@@ -1166,13 +1238,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/GU17r9HBLsc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GU17r9HBLsc"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/TiOR9KWwbsY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/TiOR9KWwbsY"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1180,13 +1256,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/ybRhUq0pPd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ybRhUq0pPd8"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/67IKNHGV72g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/67IKNHGV72g"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                    
@@ -1255,13 +1335,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/EgH5j128M4s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/EgH5j128M4s"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/jztfrkf9PUo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jztfrkf9PUo"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1269,13 +1353,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/gldLz737lWY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/gldLz737lWY"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/xMtzxnTZpNk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xMtzxnTZpNk"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1301,13 +1389,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/5zTg5gYJLNQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5zTg5gYJLNQ"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/VEHThfl6in4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VEHThfl6in4"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1315,7 +1407,9 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/H1pa1Ox33AY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/H1pa1Ox33AY"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     
@@ -1389,13 +1483,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/y2bI9Sy_uEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/y2bI9Sy_uEE"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/9dZ59RWUPH4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/9dZ59RWUPH4"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1403,13 +1501,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/-zr5Eepluj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-zr5Eepluj4"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/In9MVTxo814" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/In9MVTxo814"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                   
@@ -1472,13 +1574,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/GfRRJ6psNso" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GfRRJ6psNso"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/oPw0DEYc1-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/oPw0DEYc1-A"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1486,13 +1592,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/a68Mvp8jGeA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/a68Mvp8jGeA"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/jF5jpuSID4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jF5jpuSID4c"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     
@@ -1574,13 +1684,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/jF5jpuSID4c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jF5jpuSID4c"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9 ">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/OveCQa21KP4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/OveCQa21KP4"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1588,13 +1702,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/-3ewvovU0sI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-3ewvovU0sI"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/ZuT12stgzZs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ZuT12stgzZs"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                   
@@ -1646,13 +1764,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/yyu8ts2nZTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yyu8ts2nZTI"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/YF_lzstWkPQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YF_lzstWkPQ"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1660,13 +1782,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/VQ6Y6m0bOIk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VQ6Y6m0bOIk"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/vQqOSpo40co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vQqOSpo40co"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                    
@@ -1724,13 +1850,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/vQqOSpo40co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vQqOSpo40co"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/x5ygsbjotrw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/x5ygsbjotrw"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1738,13 +1868,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/uP-3tHt4SNc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/uP-3tHt4SNc"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/wUfkkvZwCoQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/wUfkkvZwCoQ"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1752,7 +1886,9 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 05</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/Ato2JRyk0TM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Ato2JRyk0TM"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     
@@ -1819,13 +1955,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/waIPnY6feQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/waIPnY6feQc"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/-TZuP_vCEb4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-TZuP_vCEb4"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1890,13 +2030,17 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/Vo8A_YdMn0E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vo8A_YdMn0E"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/EnURcaTLs2M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/EnURcaTLs2M"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1904,7 +2048,9 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe width="1194" height="702" src="https://www.youtube.com/embed/QrJ4fvOtwE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/QrJ4fvOtwE8"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     
@@ -1970,7 +2116,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/RZQf4hkpYvo"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/9w0OQjkjqOk"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -1978,7 +2124,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/_k_MSGCDVGA"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-YMDRENrHqo"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -1988,7 +2134,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/dkr9O-mpgTg"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/L99dtQFSUCQ"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -1996,7 +2142,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yvQRIlp-gPg"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/v4hVqKbyVc0"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2005,8 +2151,16 @@ export default function SegundoAno() {
                 <div className="row">
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 05</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/dkr9O-mpgTg"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <p className="texto-video-tarefa">Vídeo Aula 06</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ezBJQjRimCU"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/0qq8AKUlVkQ"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2073,7 +2227,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/CortRWTZJoc"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/bRaQN3_80ps"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2081,7 +2235,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/r0w1MuDS9hY"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YLUAMR2-rnI"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2091,15 +2245,33 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/1zZqxya2KJk"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vfHPrwg9Ess"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                        <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hkdd6PLm4oY"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-lg-6">
+                        <p className="texto-video-tarefa">Vídeo Aula 05</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/PJS8hQcfmIk"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <p className="texto-video-tarefa">Vídeo Aula 06</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/eJEdSXsLMYA"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vb65zQuga9M"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2148,7 +2320,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 01</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vkCRrOyIrLs"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Fr4t_5YkVv4"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2156,7 +2328,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 02</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/poLuSCpuD-Q"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/eBIcs4N8Nxg"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2166,7 +2338,7 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 03</p>
                         <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5xpNtQRMMh0"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UEwtY6kLQyI"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
@@ -2174,23 +2346,13 @@ export default function SegundoAno() {
                     <div className="col-lg-6">
                         <p className="texto-video-tarefa">Vídeo Aula 04</p>
                         <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/N9LWuakdilE"
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/6GF7r4dLwtA"
                          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen="allowfullscreen"></iframe>
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 05</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/JXny2ak4_BA"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                   
-                </div>
+               
                                
                 <div className="row">
                     <div className="col-lg-4">

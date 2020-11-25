@@ -100,12 +100,12 @@
     height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 @media (min-width:992px){
     .img-modal-doacao{
-        width: 340px;
+     width: 340px;
     height: auto;
     display: block;
     margin-left: auto;

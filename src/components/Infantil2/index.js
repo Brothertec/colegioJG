@@ -1612,6 +1612,90 @@ export default function Infantil2() {
         </div>
 
 
+        {/* SEMANA ------ 24 -------- */}
+
+        <h3 className="titulo-tarefa">Tarefa Semanal 24 </h3>
+            <p className="texto-tarefa">07/setembro até 13/setembro</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/sEWdqNA14nE"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/nWXg_yibOro"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/b5cltuHNjc4"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ulNfnQ2_yg4"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+
+            {/* SEMANA ------ 25 -------- */}
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 25 </h3>
+            <p className="texto-tarefa">14/setembro até 20/setembro</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/BN7Ff_h5KWk"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UF24cpyySSg"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/huT4bKYDZRE"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GJPG5oRyVrg"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
     </div>
     )
 };
