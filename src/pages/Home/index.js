@@ -8,11 +8,13 @@ import Doacoes from '../../components/compositions/Doacoes';
 import Carousel from '../../components/compositions/Carousel';
 import Footer from '../../components/compositions/Footer';
 import Copyright from '../../components/Copyright';
+import ModalMatricula from '../../components/ModalMatricula';
 
 
 export default function Home() {
     return(
         <div className="home">
+            <ModalMatricula/>
             <Navbar/>
             <Carousel/>
             <InfoEscola/>
