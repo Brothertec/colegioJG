@@ -1,5 +1,5 @@
 import React from 'react';
-import logoJG from '../../image/logo-colegio-jardim-getsemani.png';
+import logoJG from '../../image/logonn.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUsers, faMusic,faChalkboardTeacher, faHandHoldingHeart, faLock, faBars} from '@fortawesome/free-solid-svg-icons';
 
