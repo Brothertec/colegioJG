@@ -23,16 +23,16 @@ export default function AreaAluno() {
             </div>
             <div className="col-lg-5">
               <LinkBorder title="Aulas e Tarefas" iconProps={['fas', 'chalkboard-teacher']}>
-                <LinkWithIcon text='Berçário I e II' path='/teste' />
-                <LinkWithIcon text='Infantil II (2 anos)' path='/teste' />
-                <LinkWithIcon text='Infantil III (3 anos)' path='/teste' />
-                <LinkWithIcon text='Infantil IV (4 anos)' path='/teste' />
-                <LinkWithIcon text='Infantil V (5 anos)' path='/teste' />
-                <LinkWithIcon text='Ensino Fundamental 1º ano (6 anos)' path='/teste' />
-                <LinkWithIcon text='Ensino Fundamental 2º ano (7 anos)' path='/teste' />
-                <LinkWithIcon text='Ensino Fundamental 3º ano (8 anos)' path='/teste' />
-                <LinkWithIcon text='Ensino Fundamental 4º ano (9 anos)' path='/teste' />
-                <LinkWithIcon text='Ensino Fundamental 5º ano (10 anos)' path='/teste' />
+                <LinkWithIcon text='Berçário I e II' path='/aulas' />
+                <LinkWithIcon text='Infantil II (2 anos)' path='/aulas' />
+                <LinkWithIcon text='Infantil III (3 anos)' path='/aulas' />
+                <LinkWithIcon text='Infantil IV (4 anos)' path='/aulas' />
+                <LinkWithIcon text='Infantil V (5 anos)' path='/aulas' />
+                <LinkWithIcon text='Ensino Fundamental 1º ano (6 anos)' path='/aulas' />
+                <LinkWithIcon text='Ensino Fundamental 2º ano (7 anos)' path='/aulas' />
+                <LinkWithIcon text='Ensino Fundamental 3º ano (8 anos)' path='/aulas' />
+                <LinkWithIcon text='Ensino Fundamental 4º ano (9 anos)' path='/aulas' />
+                <LinkWithIcon text='Ensino Fundamental 5º ano (10 anos)' path='/aulas' />
               </LinkBorder>
             </div>
           </div>
