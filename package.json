@@ -1,7 +1,7 @@
 {
   "name": "projeto-minimo-react",
   "version": "0.1.0",
-  "homepage": "https://brothertec.github.io/colegioJG/",
+  "homepage": "http://www.colegiojardimgetsemani.com.br/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
