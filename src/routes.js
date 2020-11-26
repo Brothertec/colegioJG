@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Musicalizacao from './pages/Musicalizacao';
@@ -12,7 +12,7 @@ import TarefasD from './components/TarefaD';
 
 export default function Routes() {
     return (
-        <BrowserRouter>
+        <HashRouter>
 
             <TarefasProvider>
                 <Route component={Home} path='/' exact />
@@ -26,6 +26,6 @@ export default function Routes() {
 
             </TarefasProvider>
 
-        </BrowserRouter>
+        </HashRouter>
     );
 }
