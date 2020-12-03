@@ -169,6 +169,11 @@ export default function Bercario() {
     return (
         <div className="container">
 
+            <div className="btn-leitura-p">
+                <h3 className="titulo-tarefa-leitura">Acesso ao projeto leitura:</h3>
+                <a class="btn btn-primary btn-color-leitura-p" href="#/leitura" >Projeto Leitura</a>
+            </div>
+
             {/* SEMANA ------ 04 -------- */}
 
             <h3 className="titulo-tarefa">Tarefa Semanal 04 </h3>
@@ -322,17 +327,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/TQ7Epb0sheM"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/TQ7Epb0sheM"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/o3pxCTaG8gE"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/o3pxCTaG8gE"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -340,21 +345,21 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/BqcQ4-sugEQ"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/BqcQ4-sugEQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/MAN7_IuUhzM"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/MAN7_IuUhzM"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
-           
+
             <div className="row">
                 <div className="col-lg-4">
                     <TarefaD img={s7img1} imgbtn={s7img1} />
@@ -402,17 +407,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/o-yYqwuHDCQ"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/o-yYqwuHDCQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YoWEaJ-N5EM"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YoWEaJ-N5EM"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -420,17 +425,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UxGUsbzciP0"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UxGUsbzciP0"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/wD_Pe-fZK4Q"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/wD_Pe-fZK4Q"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -438,9 +443,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/tPtFLIGkyjY"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/tPtFLIGkyjY"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -476,17 +481,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vul7XAJH3rM"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vul7XAJH3rM"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/AzQundWu4k4"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/AzQundWu4k4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -494,21 +499,21 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/4-czDZU_cSA"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/4-czDZU_cSA"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hN7rzZY_9k0"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hN7rzZY_9k0"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
-           
+
             <div className="row">
                 <div className="col-lg-4">
                     <TarefaD img={s9img1} imgbtn={s9img1} />
@@ -550,17 +555,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yDqzExkPHw4"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yDqzExkPHw4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/NT1x-3uu06Y"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/NT1x-3uu06Y"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -568,17 +573,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/3ATdKBLNOPg"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/3ATdKBLNOPg"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/gEoMF562G0E"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/gEoMF562G0E"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -586,9 +591,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/tIJGzFpnl4s"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/tIJGzFpnl4s"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -649,17 +654,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/U7tbjNq8lDU"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/U7tbjNq8lDU"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hHyMF9_XWEk"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hHyMF9_XWEk"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -667,17 +672,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/csJ08kCNxiY"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/csJ08kCNxiY"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/XvfYJrNF2Sk"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/XvfYJrNF2Sk"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -685,9 +690,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ErcMDvBAwCU"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ErcMDvBAwCU"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -740,17 +745,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/8M1PPgE-HU4"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/8M1PPgE-HU4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/3CRQFW4zeAU"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/3CRQFW4zeAU"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -758,17 +763,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/mPCZi32mjKw"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/mPCZi32mjKw"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/bqdjM5eyQV0"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/bqdjM5eyQV0"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -776,9 +781,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-He_OXs5Bc0"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-He_OXs5Bc0"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -828,17 +833,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/tdQqehM_w8E"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/tdQqehM_w8E"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/fDveyvd51jo"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/fDveyvd51jo"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -846,21 +851,21 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/msju3PTmmKs"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/msju3PTmmKs"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/dXNh5cDMtGI"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/dXNh5cDMtGI"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
-           
+
             <div className="row">
                 <div className="col-lg-4">
                     <TarefaD img={s15img1} imgbtn={s15img1} />
@@ -901,17 +906,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/07N4RrDgIaM"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/07N4RrDgIaM"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VH-evexL0fc"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VH-evexL0fc"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -919,17 +924,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/l1_KnOCUNGE"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/l1_KnOCUNGE"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/qc37rueBd3k"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/qc37rueBd3k"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -937,9 +942,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/duhyUVnTgkU"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/duhyUVnTgkU"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -994,17 +999,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/r-s886UJLlQ"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/r-s886UJLlQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/G7heuhSN6Xg"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/G7heuhSN6Xg"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1012,17 +1017,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DWQpT_zf0Ko"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DWQpT_zf0Ko"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/wpwPfwWlNvQ"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/wpwPfwWlNvQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1030,9 +1035,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/EQYnz-XQTV0"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/EQYnz-XQTV0"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1068,17 +1073,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hpzAFtmLZUE"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hpzAFtmLZUE"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/38ozy7ItGik"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/38ozy7ItGik"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1086,17 +1091,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/3Gf90NZAIzw"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/3Gf90NZAIzw"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/HoKuXo7tY1A"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/HoKuXo7tY1A"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1104,9 +1109,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/AwvPK2sFzQo"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/AwvPK2sFzQo"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1156,17 +1161,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vaMNHbrT7z4"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vaMNHbrT7z4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/AR2X68xQu1E"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/AR2X68xQu1E"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1174,17 +1179,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/CWwNnwsWnTs"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/CWwNnwsWnTs"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5ECnDx0Vt_c"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5ECnDx0Vt_c"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1192,9 +1197,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/WaGXQZ7-T_8"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/WaGXQZ7-T_8"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1238,17 +1243,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/85E5iYajD6Q"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/85E5iYajD6Q"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Ofom6YumVk4"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Ofom6YumVk4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1256,17 +1261,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DN4-rh6Nb5I"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DN4-rh6Nb5I"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yFa9MojF_UI"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yFa9MojF_UI"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1274,9 +1279,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ILAzyZLjDDg"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ILAzyZLjDDg"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1311,17 +1316,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/kX74i_-jJ-U"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/kX74i_-jJ-U"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/QBuVSzMpWVs"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/QBuVSzMpWVs"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1329,17 +1334,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/suBFfKDCx2k"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/suBFfKDCx2k"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/suBFfKDCx2k"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/suBFfKDCx2k"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1347,9 +1352,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/lWTydV4g5vU"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/lWTydV4g5vU"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1384,17 +1389,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-ZEf1NYlw8M"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-ZEf1NYlw8M"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/JZG3VciLhxs"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/JZG3VciLhxs"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1402,17 +1407,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xdQR70VV4nU"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xdQR70VV4nU"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DY_IioH0EZA"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DY_IioH0EZA"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1420,9 +1425,9 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 05</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/q4RP2Vrc5NU"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/q4RP2Vrc5NU"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1456,17 +1461,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/sEWdqNA14nE"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/sEWdqNA14nE"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/nWXg_yibOro"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/nWXg_yibOro"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1474,21 +1479,21 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/b5cltuHNjc4"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/b5cltuHNjc4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ulNfnQ2_yg4"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ulNfnQ2_yg4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
-            
+
 
             {/* SEMANA ------ 25 -------- */}
 
@@ -1498,17 +1503,17 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 01</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/BN7Ff_h5KWk"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/BN7Ff_h5KWk"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 02</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UF24cpyySSg"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UF24cpyySSg"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
@@ -1516,21 +1521,21 @@ export default function Bercario() {
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 03</p>
                     <div class="embed-responsive embed-responsive-16by9">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/huT4bKYDZRE"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/huT4bKYDZRE"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
                 <div className="col-lg-6">
                     <p className="texto-video-tarefa">Vídeo Aula 04</p>
                     <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GJPG5oRyVrg"
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen="allowfullscreen"></iframe>
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GJPG5oRyVrg"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     )
 };

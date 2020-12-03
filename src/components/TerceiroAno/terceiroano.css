@@ -59,3 +59,38 @@ margin-bottom: 40px;
     text-align: center;
     color: #D43F36;;
 }
+
+.btn-color-leitura-p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    align-items: center;
+    background-color:  #D43F36;
+    border-color:  #D43F36;
+}
+
+.btn-color-leitura-p:hover{
+    color: #E9CC1D;
+    background-color:#b1211a;
+    border-color: #b1211a;
+}
+
+.btn-color-leitura-p:focus{
+    color: #E9CC1D;
+    background-color:#b1211a;
+    border-color: #b1211a;
+}
+
+.btn-leitura-p{
+    text-align: center;
+}
+
+.titulo-tarefa-leitura{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    color: #303030;
+    margin-top: 56px;
+    margin-bottom: 40px;
+}

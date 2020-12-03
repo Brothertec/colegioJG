@@ -360,6 +360,13 @@ import s25img5 from '../../image/infantil7/semana25/img5.jpg';
 import s25img6 from '../../image/infantil7/semana25/img6.jpg';
 import s25img7 from '../../image/infantil7/semana25/img7.jpg';
 
+// Semana ---- 26 -----
+
+import s26img1 from '../../image/ingles.jpg';
+import s26img2 from '../../image/infantil7/semana26/PROVAINGLES2ANO.docx';
+import s26img3 from '../../image/futebol.jpg'
+import s26img4 from '../../image/TRABALHODOFUTEBOL.docx'
+
 
 import './segundoano.css';
 
@@ -369,6 +376,12 @@ import './segundoano.css';
 export default function SegundoAno() {
     return (
         <div className="container">
+
+
+            <div className="btn-leitura-p">
+                <h3 className="titulo-tarefa-leitura">Acesso ao projeto leitura:</h3>
+                <a class="btn btn-primary btn-color-leitura-p" href="#/leitura" >Projeto Leitura</a>
+            </div>
 
             {/* SEMANA ------ 01 -------- */}
 
@@ -2383,6 +2396,27 @@ export default function SegundoAno() {
                         <TarefaD img={s25img7} imgbtn={s25img7} />
                     </div>
                                         
+                </div>
+
+
+                  {/* SEMANA ------ 26 -------- */}
+
+
+                  <h3 className="titulo-tarefa">Tarefa Semanal 26 (PROVA E TRABALHO) </h3>
+                <p className="texto-tarefa">30/novembro até 06/dezembro</p>
+
+                <div className="row">
+                    <div className="col-lg-4">
+                        <p className="texto-tarefa">Prova de Inglês</p>
+                        <TarefaD img={s26img1} imgbtn={s26img2} />
+                    </div>
+                    <div className="col-lg-4">
+                    <p className="texto-tarefa">Trabalho Futebol</p>
+
+                        <TarefaD img={s26img3} imgbtn={s26img4} />
+                    </div>
+                    
+
                 </div>
                 
                 

@@ -369,6 +369,12 @@ import s25img11 from '../../image/infantil9/semana25/img11.jpg';
 import s25img12 from '../../image/infantil9/semana25/img12.jpg';
 
 
+// Semana ---- 26 -----
+
+import s26img1 from '../../image/ingles.jpg';
+import s26img2 from '../../image/infantil9/semana26/PROVAINGLES4ANO.docx';
+import s26img3 from '../../image/futebol.jpg'
+import s26img4 from '../../image/TRABALHODOFUTEBOL.docx'
 
 
 import './quartoano.css';
@@ -379,6 +385,12 @@ import './quartoano.css';
 export default function QuartoAno() {
     return (
         <div className="container">
+
+
+            <div className="btn-leitura-p">
+                <h3 className="titulo-tarefa-leitura">Acesso ao projeto leitura:</h3>
+                <a class="btn btn-primary btn-color-leitura-p" href="#/leitura" >Projeto Leitura</a>
+            </div>
 
             {/* SEMANA ------ 01 -------- */}
 
@@ -2336,6 +2348,28 @@ export default function QuartoAno() {
                     </div>
                     
                                         
+                </div>
+
+
+
+                {/* SEMANA ------ 26 -------- */}
+
+
+                <h3 className="titulo-tarefa">Tarefa Semanal 26 (PROVA E TRABALHO) </h3>
+                <p className="texto-tarefa">30/novembro até 06/dezembro</p>
+
+                <div className="row">
+                    <div className="col-lg-4">
+                        <p className="texto-tarefa">Prova de Inglês</p>
+                        <TarefaD img={s26img1} imgbtn={s26img2} />
+                    </div>
+                    <div className="col-lg-4">
+                    <p className="texto-tarefa">Trabalho Futebol</p>
+
+                        <TarefaD img={s26img3} imgbtn={s26img4} />
+                    </div>
+                    
+
                 </div>
                 
                 

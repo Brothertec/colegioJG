@@ -334,6 +334,12 @@ export default function Infantil5() {
     return (
         <div className="container">
 
+
+            <div className="btn-leitura-p">
+                <h3 className="titulo-tarefa-leitura">Acesso ao projeto leitura:</h3>
+                <a class="btn btn-primary btn-color-leitura-p" href="#/leitura" >Projeto Leitura</a>
+            </div>
+
             {/* SEMANA ------ 01 -------- */}
 
             <h3 className="titulo-tarefa">Tarefa Semanal 01 </h3>
