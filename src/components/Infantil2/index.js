@@ -215,6 +215,15 @@ import s23img6 from '../../image/infantil2/semana23/img6.jpg';
 import s23img7 from '../../image/infantil2/semana23/img7.jpg';
 
 
+// Semana ---- 24 -----
+// Semana ---- 25 -----
+// Semana ---- 26 -----
+
+import s26img1 from '../../image/ingles.jpg';
+import s26img2 from '../../image/infantil2/semana26/PROVAINGLESINFANTILII.docx';
+import s26img3 from '../../image/prova.jpg';
+import s26img4 from '../../image/infantil2/semana26/PROVINHAINFANTILII.docx';
+
 
 
 
@@ -1700,6 +1709,34 @@ export default function Infantil2() {
                     </div>
                 </div>
             </div>
+
+
+                {/* SEMANA ------ 26 -------- */}
+
+                <h3 className="titulo-tarefa">Tarefa Semanal 26 </h3>
+            <p className="texto-tarefa">14/desembro até 20/desembro</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/w1jSHSvNu2o"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+               
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s26img1} imgbtn={s26img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s26img3} imgbtn={s26img4} />
+                </div>
+               
+
+            </div>
+           
 
 
         </div>

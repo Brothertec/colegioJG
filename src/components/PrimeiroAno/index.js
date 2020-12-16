@@ -343,6 +343,30 @@ import s26img2 from '../../image/infantil6/semana26/PROVAINGLES1ANO.docx';
 import s26img3 from '../../image/futebol.jpg'
 import s26img4 from '../../image/TRABALHODOFUTEBOL.docx'
 
+// Semana ---- 27 -----
+import s27img1 from '../../image/ingles.jpg';
+import s27img2 from '../../image/infantil6/semana27/PROVADEINGLES.docx';
+import s27img3 from '../../image/prova.jpg';
+import s27img4 from '../../image/infantil6/semana27/PROVAARTES.docx';
+import s27img5 from '../../image/prova.jpg';
+import s27img6 from '../../image/infantil6/semana27/PROVADECIENCIAS.docx';
+import s27img7 from '../../image/prova.jpg';
+import s27img8 from '../../image/infantil6/semana27/PROVADEEDUCACAOFISICA.docx';
+import s27img9 from '../../image/prova.jpg';
+import s27img10 from '../../image/infantil6/semana27/PROVADEGEOGRAFIA.docx';
+import s27img11 from '../../image/prova.jpg';
+import s27img12 from '../../image/infantil6/semana27/PROVADEHISTORIA.docx';
+import s27img13 from '../../image/prova.jpg';
+import s27img14 from '../../image/infantil6/semana27/PROVADEPORTUGUES.docx';
+import s27img15 from '../../image/prova.jpg';
+import s27img16 from '../../image/infantil6/semana27/PROVADEMATEMATICA.docx';
+
+
+
+
+
+
+
 
 
 
@@ -2300,6 +2324,60 @@ export default function PrimeiroAno() {
                     
 
                 </div>
+
+
+                 {/* SEMANA ------ 27 -------- */}
+
+
+                 <h3 className="titulo-tarefa">Tarefa Semanal 27 </h3>
+                <p className="texto-tarefa">14/desembro até 20/desembro</p>
+                <div className="row">
+                    <div className="col-lg-6">
+                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/XlUBhDIsLok"
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                    </div>
+                    
+                </div>
+              
+                               
+                <div className="row">
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img1} imgbtn={s27img2} />
+                    </div>
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img3} imgbtn={s27img4} />
+                    </div>
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img5} imgbtn={s27img6} />
+                    </div>
+
+                </div>
+                <div className="row">
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img7} imgbtn={s27img8} />
+                    </div>
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img9} imgbtn={s27img10} />
+                    </div>
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img11} imgbtn={s27img12} />
+                    </div>
+
+                </div>
+                <div className="row">
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img13} imgbtn={s27img14} />
+                    </div>
+                    <div className="col-lg-4">
+                        <TarefaD img={s27img15} imgbtn={s27img16} />
+                    </div>
+                    
+                </div>
+                
             
             </div>
     )

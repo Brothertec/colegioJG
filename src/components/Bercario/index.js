@@ -160,6 +160,15 @@ import s23img4 from '../../image/berçario/semana23/img4.jpg';
 import s23img5 from '../../image/berçario/semana23/img5.jpg';
 
 
+// Semana ---- 24 -----
+// Semana ---- 25 -----
+// Semana ---- 26 -----
+
+import s26img1 from '../../image/prova.jpg';
+import s26img2 from '../../image/berçario/semana26/PROVABERCARIO.docx';
+
+
+
 
 import './bercario.css';
 
@@ -1534,6 +1543,20 @@ export default function Bercario() {
                             allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
+            </div>
+
+             {/* SEMANA ------ 26 -------- */}
+
+             <h3 className="titulo-tarefa">Tarefa Semanal 26 </h3>
+            <p className="texto-tarefa">14/desembro até 20/desembro</p>
+            
+           
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s26img1} imgbtn={s26img2} />
+                </div>
+                
+
             </div>
 
         </div>

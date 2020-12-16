@@ -368,6 +368,25 @@ import s26img3 from '../../image/futebol.jpg'
 import s26img4 from '../../image/TRABALHODOFUTEBOL.docx'
 
 
+// Semana ---- 27 -----
+import s27img1 from '../../image/ingles.jpg';
+import s27img2 from '../../image/infantil7/semana27/PROVADEINGLES.docx';
+import s27img3 from '../../image/prova.jpg';
+import s27img4 from '../../image/infantil7/semana27/PROVADEARTES.docx';
+import s27img5 from '../../image/prova.jpg';
+import s27img6 from '../../image/infantil7/semana27/PROVADECIENCIAS.docx';
+import s27img7 from '../../image/prova.jpg';
+import s27img8 from '../../image/infantil7/semana27/PROVADEEDUCACAOFISICA.docx';
+import s27img9 from '../../image/prova.jpg';
+import s27img10 from '../../image/infantil7/semana27/PROVADEGEOGRAFIA.docx';
+import s27img11 from '../../image/prova.jpg';
+import s27img12 from '../../image/infantil7/semana27/PROVADEHISTORIA.docx';
+import s27img13 from '../../image/prova.jpg';
+import s27img14 from '../../image/infantil7/semana27/PROVADEPORTUGUES.docx';
+import s27img15 from '../../image/prova.jpg';
+import s27img16 from '../../image/infantil7/semana27/PROVADEMATEMATICA.docx';
+
+
 import './segundoano.css';
 
 
@@ -386,2041 +405,2094 @@ export default function SegundoAno() {
             {/* SEMANA ------ 01 -------- */}
 
             <h3 className="titulo-tarefa">Tarefa Semanal 01 </h3>
-                <p className="texto-tarefa">30/março até 03/abril</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            <p className="texto-tarefa">30/março até 03/abril</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GoK6bZOfEzs"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/CrakjZmsi-k"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/a3T6_QfukDs"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/q9iLvFu3_s8"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                  
-                </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img1} imgbtn={s1img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img2} imgbtn={s1img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img3} imgbtn={s1img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img4} imgbtn={s1img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img5} imgbtn={s1img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img6} imgbtn={s1img6} />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img7} imgbtn={s1img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img8} imgbtn={s1img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img9} imgbtn={s1img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img10} imgbtn={s1img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img11} imgbtn={s1img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img12} imgbtn={s1img12} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img13} imgbtn={s1img13} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img14} imgbtn={s1img14} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img15} imgbtn={s1img15} />
-                    </div>
-                                        
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s1img16} imgbtn={s1img16} />
-                    </div>
-                    
-                                        
                 </div>
 
-                {/* SEMANA ------ 02 -------- */}
+            </div>
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 02 </h3>
-                <p className="texto-tarefa">06/abril até 10/abril</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s1img1} imgbtn={s1img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img2} imgbtn={s1img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img3} imgbtn={s1img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s1img4} imgbtn={s1img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img5} imgbtn={s1img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img6} imgbtn={s1img6} />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s1img7} imgbtn={s1img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img8} imgbtn={s1img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img9} imgbtn={s1img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s1img10} imgbtn={s1img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img11} imgbtn={s1img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img12} imgbtn={s1img12} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s1img13} imgbtn={s1img13} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img14} imgbtn={s1img14} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s1img15} imgbtn={s1img15} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s1img16} imgbtn={s1img16} />
+                </div>
+
+
+            </div>
+
+            {/* SEMANA ------ 02 -------- */}
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 02 </h3>
+            <p className="texto-tarefa">06/abril até 10/abril</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xqOFHnncj98"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/6y4jS2m8Mg0"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5MfZ2p1DeCM"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xc7pfDXh_no"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                   
                 </div>
-                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img1} imgbtn={s2img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img2} imgbtn={s2img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img3} imgbtn={s2img3} />
-                    </div>
 
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img4} imgbtn={s2img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img5} imgbtn={s2img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img6} imgbtn={s2img6} />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img7} imgbtn={s2img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s2img8} imgbtn={s2img8} />
-                    </div>
-                                       
-                </div>
-                
+            </div>
 
-                {/* SEMANA ------ 03 -------- */}
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s2img1} imgbtn={s2img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s2img2} imgbtn={s2img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s2img3} imgbtn={s2img3} />
+                </div>
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 03 </h3>
-                <p className="texto-tarefa">13/abril até 17/abril</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s2img4} imgbtn={s2img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s2img5} imgbtn={s2img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s2img6} imgbtn={s2img6} />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s2img7} imgbtn={s2img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s2img8} imgbtn={s2img8} />
+                </div>
+
+            </div>
+
+
+            {/* SEMANA ------ 03 -------- */}
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 03 </h3>
+            <p className="texto-tarefa">13/abril até 17/abril</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Hqkndg6IQC4"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/t3xiWYDb8tU"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/sTFU3VhupUI"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5NDgpXGBJ4g"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    
                 </div>
-                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img1} imgbtn={s3img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img2} imgbtn={s3img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img3} imgbtn={s3img3} />
-                    </div>
 
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img4} imgbtn={s3img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img5} imgbtn={s3img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img6} imgbtn={s3img6} />
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img7} imgbtn={s3img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img8} imgbtn={s3img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img9} imgbtn={s3img9} />
-                    </div>
+            </div>
 
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s3img1} imgbtn={s3img1} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s3img10} imgbtn={s3img10} />
-                    </div>
-                                                            
+                <div className="col-lg-4">
+                    <TarefaD img={s3img2} imgbtn={s3img2} />
                 </div>
-                
-                {/* SEMANA ------ 04 -------- */}
+                <div className="col-lg-4">
+                    <TarefaD img={s3img3} imgbtn={s3img3} />
+                </div>
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 04 </h3>
-                <p className="texto-tarefa">20/abril até 24/abril</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s3img4} imgbtn={s3img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s3img5} imgbtn={s3img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s3img6} imgbtn={s3img6} />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s3img7} imgbtn={s3img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s3img8} imgbtn={s3img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s3img9} imgbtn={s3img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s3img10} imgbtn={s3img10} />
+                </div>
+
+            </div>
+
+            {/* SEMANA ------ 04 -------- */}
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 04 </h3>
+            <p className="texto-tarefa">20/abril até 24/abril</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/clkpTq5Xwz8"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/4reGtnzDddw"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9 ">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9 ">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/gAstseeFbRI"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/FAWZvCLHzGM"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img1} imgbtn={s4img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img2} imgbtn={s4img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img3} imgbtn={s4img3} />
-                    </div>
+            </div>
 
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s4img1} imgbtn={s4img1} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img4} imgbtn={s4img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img5} imgbtn={s4img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img6} imgbtn={s4img6} />
-                    </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img2} imgbtn={s4img2} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img7} imgbtn={s4img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img8} imgbtn={s4img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img9} imgbtn={s4img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img10} imgbtn={s4img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img11} imgbtn={s4img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img12} imgbtn={s4img12} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img13} imgbtn={s4img13} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img14} imgbtn={s4img14} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s4img15} imgbtn={s4img15} />
-                    </div>
-                    
-                    
+                <div className="col-lg-4">
+                    <TarefaD img={s4img3} imgbtn={s4img3} />
                 </div>
 
-                {/* SEMANA ------ 05 -------- */}
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s4img4} imgbtn={s4img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img5} imgbtn={s4img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img6} imgbtn={s4img6} />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s4img7} imgbtn={s4img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img8} imgbtn={s4img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img9} imgbtn={s4img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s4img10} imgbtn={s4img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img11} imgbtn={s4img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img12} imgbtn={s4img12} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s4img13} imgbtn={s4img13} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img14} imgbtn={s4img14} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s4img15} imgbtn={s4img15} />
+                </div>
 
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 05 </h3>
-                <p className="texto-tarefa">27/abril até 01/maio</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+
+            {/* SEMANA ------ 05 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 05 </h3>
+            <p className="texto-tarefa">27/abril até 01/maio</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/zsuGwcOO0jE"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/nlTt_LOSWoA"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/lgc1bAmYjnE"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/krehgUBNe34"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                   
-                </div>
-                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img1} imgbtn={s5img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img2} imgbtn={s5img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img3} imgbtn={s5img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img4} imgbtn={s5img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img5} imgbtn={s5img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img6} imgbtn={s5img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img7} imgbtn={s5img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img8} imgbtn={s5img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img9} imgbtn={s5img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img10} imgbtn={s5img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s5img11} imgbtn={s5img11} />
-                    </div>
-                    
                 </div>
 
+            </div>
 
-                {/* SEMANA ------ 06 -------- */}
-
-                <div className="aviso-prova">
-                    <h3 className="prova-tarefa"> Tarefa semanal 06</h3>
-                    <p className="texto-prova">02/maio até 12/maio</p>
-                    <span className="aviso-prova">(TRABALHO DIRIGIDO)</span>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s5img1} imgbtn={s5img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s5img2} imgbtn={s5img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s5img3} imgbtn={s5img3} />
                 </div>
 
-                {/* SEMANA ------ 07 -------- */}
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s5img4} imgbtn={s5img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s5img5} imgbtn={s5img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s5img6} imgbtn={s5img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s5img7} imgbtn={s5img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s5img8} imgbtn={s5img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s5img9} imgbtn={s5img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s5img10} imgbtn={s5img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s5img11} imgbtn={s5img11} />
+                </div>
+
+            </div>
 
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 07 </h3>
-                <p className="texto-tarefa">13/maio até 15/maio</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            {/* SEMANA ------ 06 -------- */}
+
+            <div className="aviso-prova">
+                <h3 className="prova-tarefa"> Tarefa semanal 06</h3>
+                <p className="texto-prova">02/maio até 12/maio</p>
+                <span className="aviso-prova">(TRABALHO DIRIGIDO)</span>
+            </div>
+
+            {/* SEMANA ------ 07 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 07 </h3>
+            <p className="texto-tarefa">13/maio até 15/maio</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Fypu4CMit_o"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xt1fHbD5ejk"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ut87aGiMDms"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/6d7okqDsQCU"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                   
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 05</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 05</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/7UcO347wwjE"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 06</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 06</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UxGUsbzciP0"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                   
                 </div>
 
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img1} imgbtn={s7img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img2} imgbtn={s7img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img3} imgbtn={s7img3} />
-                    </div>
+            </div>
 
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s7img1} imgbtn={s7img1} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img4} imgbtn={s7img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img5} imgbtn={s7img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img6} imgbtn={s7img6} />
-                    </div>
-
+                <div className="col-lg-4">
+                    <TarefaD img={s7img2} imgbtn={s7img2} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img7} imgbtn={s7img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img8} imgbtn={s7img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img9} imgbtn={s7img9} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img10} imgbtn={s7img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s7img11} imgbtn={s7img11} />
-                    </div>
-                                        
+                <div className="col-lg-4">
+                    <TarefaD img={s7img3} imgbtn={s7img3} />
                 </div>
 
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s7img4} imgbtn={s7img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s7img5} imgbtn={s7img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s7img6} imgbtn={s7img6} />
+                </div>
 
-                {/* SEMANA ------ 08 -------- */}
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s7img7} imgbtn={s7img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s7img8} imgbtn={s7img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s7img9} imgbtn={s7img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s7img10} imgbtn={s7img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s7img11} imgbtn={s7img11} />
+                </div>
+
+            </div>
 
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 08 </h3>
-                <p className="texto-tarefa">18/maio até 22/maio</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            {/* SEMANA ------ 08 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 08 </h3>
+            <p className="texto-tarefa">18/maio até 22/maio</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/37xN9IRVaZ0"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/DdViJQK5udM"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/cv9RC7nEpDY"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    
-                    
-                </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img1} imgbtn={s8img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img2} imgbtn={s8img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img3} imgbtn={s8img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img4} imgbtn={s8img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img5} imgbtn={s8img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img6} imgbtn={s8img6} />
-                    </div>
-
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img7} imgbtn={s8img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img8} imgbtn={s8img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img9} imgbtn={s8img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img10} imgbtn={s8img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img11} imgbtn={s8img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s8img12} imgbtn={s8img12} />
-                    </div>
-
                 </div>
 
-                {/* SEMANA ------ 09 -------- */}
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s8img1} imgbtn={s8img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img2} imgbtn={s8img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img3} imgbtn={s8img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s8img4} imgbtn={s8img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img5} imgbtn={s8img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img6} imgbtn={s8img6} />
+                </div>
 
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 09 </h3>
-                <p className="texto-tarefa">25/maio até 29/maio</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s8img7} imgbtn={s8img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img8} imgbtn={s8img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img9} imgbtn={s8img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s8img10} imgbtn={s8img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img11} imgbtn={s8img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s8img12} imgbtn={s8img12} />
+                </div>
+
+            </div>
+
+            {/* SEMANA ------ 09 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 09 </h3>
+            <p className="texto-tarefa">25/maio até 29/maio</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/a5ACJIoRJzo"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/f9ymDvHh75U"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UuiVPfaVVwE"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/qhlJKPv-y8w"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-               
+            </div>
 
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img1} imgbtn={s9img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img2} imgbtn={s9img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img3} imgbtn={s9img3} />
-                    </div>
 
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s9img1} imgbtn={s9img1} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img4} imgbtn={s9img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img5} imgbtn={s9img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img6} imgbtn={s9img6} />
-                    </div>
-
+                <div className="col-lg-4">
+                    <TarefaD img={s9img2} imgbtn={s9img2} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img7} imgbtn={s9img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img8} imgbtn={s9img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img9} imgbtn={s9img9} />
-                    </div>
-
+                <div className="col-lg-4">
+                    <TarefaD img={s9img3} imgbtn={s9img3} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img10} imgbtn={s9img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img11} imgbtn={s9img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s9img12} imgbtn={s9img12} />
-                    </div>
 
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s9img4} imgbtn={s9img4} />
                 </div>
-               
-                {/* SEMANA ------ 10 -------- */}
+                <div className="col-lg-4">
+                    <TarefaD img={s9img5} imgbtn={s9img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s9img6} imgbtn={s9img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s9img7} imgbtn={s9img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s9img8} imgbtn={s9img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s9img9} imgbtn={s9img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s9img10} imgbtn={s9img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s9img11} imgbtn={s9img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s9img12} imgbtn={s9img12} />
+                </div>
+
+            </div>
+
+            {/* SEMANA ------ 10 -------- */}
 
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 10 </h3>
-                <p className="texto-tarefa">01/junho até 05/junho</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            <h3 className="titulo-tarefa">Tarefa Semanal 10 </h3>
+            <p className="texto-tarefa">01/junho até 05/junho</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ZrEnrsFfpPQ"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/WpM_sUUtJbk"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/erOw4byT1X0"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                   
-                </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img1} imgbtn={s10img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img2} imgbtn={s10img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img3} imgbtn={s10img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img4} imgbtn={s10img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img5} imgbtn={s10img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img6} imgbtn={s10img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img7} imgbtn={s10img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img8} imgbtn={s10img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img9} imgbtn={s10img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img10} imgbtn={s10img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img11} imgbtn={s10img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img12} imgbtn={s10img12} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img13} imgbtn={s10img13} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s10img14} imgbtn={s10img14} />
-                    </div>                    
-                    
-                </div>
-                                       
-
-                {/* SEMANA ------ 11 -------- */}
-
-
-                <div className="aviso-prova">
-                    <h3 className="prova-tarefa"> Tarefa semanal 11</h3>
-                    <p className="texto-prova">08/junho até 15/junho</p>
-                    <span className="aviso-prova">(SEMANA DE PROVAS)</span>
                 </div>
 
+            </div>
 
-                {/* SEMANA ------ 12 -------- */}
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s10img1} imgbtn={s10img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img2} imgbtn={s10img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img3} imgbtn={s10img3} />
+                </div>
 
-                <h3 className="titulo-tarefa">Tarefa Semanal 12 </h3>
-                <p className="texto-tarefa">15/junho até 22/junho</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s10img4} imgbtn={s10img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img5} imgbtn={s10img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img6} imgbtn={s10img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s10img7} imgbtn={s10img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img8} imgbtn={s10img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img9} imgbtn={s10img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s10img10} imgbtn={s10img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img11} imgbtn={s10img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img12} imgbtn={s10img12} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s10img13} imgbtn={s10img13} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s10img14} imgbtn={s10img14} />
+                </div>
+
+            </div>
+
+
+            {/* SEMANA ------ 11 -------- */}
+
+
+            <div className="aviso-prova">
+                <h3 className="prova-tarefa"> Tarefa semanal 11</h3>
+                <p className="texto-prova">08/junho até 15/junho</p>
+                <span className="aviso-prova">(SEMANA DE PROVAS)</span>
+            </div>
+
+
+            {/* SEMANA ------ 12 -------- */}
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 12 </h3>
+            <p className="texto-tarefa">15/junho até 22/junho</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GU17r9HBLsc"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/TiOR9KWwbsY"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ybRhUq0pPd8"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/67IKNHGV72g"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                   
                 </div>
-                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img1} imgbtn={s12img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img2} imgbtn={s12img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img3} imgbtn={s12img3} />
-                    </div>
 
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s12img1} imgbtn={s12img1} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img4} imgbtn={s12img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img5} imgbtn={s12img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img6} imgbtn={s12img6} />
-                    </div>
-
+                <div className="col-lg-4">
+                    <TarefaD img={s12img2} imgbtn={s12img2} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img7} imgbtn={s12img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img8} imgbtn={s12img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img9} imgbtn={s12img9} />
-                    </div>
-
+                <div className="col-lg-4">
+                    <TarefaD img={s12img3} imgbtn={s12img3} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img10} imgbtn={s12img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img11} imgbtn={s12img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s12img12} imgbtn={s12img12} />
-                    </div>
-                    
 
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s12img4} imgbtn={s12img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s12img5} imgbtn={s12img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s12img6} imgbtn={s12img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s12img7} imgbtn={s12img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s12img8} imgbtn={s12img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s12img9} imgbtn={s12img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s12img10} imgbtn={s12img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s12img11} imgbtn={s12img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s12img12} imgbtn={s12img12} />
                 </div>
 
 
+            </div>
 
-                {/* SEMANA ------ 13 -------- */}
 
-                <div className="aviso-prova">
+
+            {/* SEMANA ------ 13 -------- */}
+
+            <div className="aviso-prova">
                 <h3 className="titulo-tarefa">Tarefa Semanal 13 </h3>
                 <p className="texto-tarefa">22/junho até 28/junho</p>
                 <span className="aviso-prova">(TRABALHO AVALIATIVO)</span>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/EgH5j128M4s"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jztfrkf9PUo"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/gldLz737lWY"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
                         <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/xMtzxnTZpNk"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
                     </div>
                 </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s13img1} imgbtn={s13img3} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s13img2} imgbtn={s13img4} />
-                    </div>
-                    
-
-                </div>
-                                          
-
-                {/* SEMANA ------ 14 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 14 </h3>
-                <p className="texto-tarefa">29/junho até 05/julho</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5zTg5gYJLNQ"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VEHThfl6in4"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/H1pa1Ox33AY"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    
-                </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img1} imgbtn={s14img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img2} imgbtn={s14img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img3} imgbtn={s14img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img4} imgbtn={s14img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img5} imgbtn={s14img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img6} imgbtn={s14img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img7} imgbtn={s14img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img8} imgbtn={s14img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img9} imgbtn={s14img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img10} imgbtn={s14img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img11} imgbtn={s14img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img12} imgbtn={s14img12} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img13} imgbtn={s14img13} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s14img14} imgbtn={s14img14} />
-                    </div>
-                                      
-
-                </div>
-
-                {/* SEMANA ------ 15 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 15 </h3>
-                <p className="texto-tarefa">06/julho até 12/julho</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/y2bI9Sy_uEE"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/9dZ59RWUPH4"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-zr5Eepluj4"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/In9MVTxo814"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                  
-                </div>
-
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img1} imgbtn={s15img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img2} imgbtn={s15img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img3} imgbtn={s15img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img4} imgbtn={s15img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img5} imgbtn={s15img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img6} imgbtn={s15img6} />
-                    </div>
-
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img7} imgbtn={s15img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img8} imgbtn={s15img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img9} imgbtn={s15img9} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img10} imgbtn={s15img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s15img11} imgbtn={s15img11} />
-                    </div>
-                   
-                    
-                </div>
-
-                {/* SEMANA ------ 16 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 16 </h3>
-                <p className="texto-tarefa">13/julho até 19/julho</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GfRRJ6psNso"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/oPw0DEYc1-A"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/a68Mvp8jGeA"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jF5jpuSID4c"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    
-                </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img1} imgbtn={s16img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img2} imgbtn={s16img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img3} imgbtn={s16img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img4} imgbtn={s16img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img5} imgbtn={s16img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img6} imgbtn={s16img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img7} imgbtn={s16img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img8} imgbtn={s16img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img9} imgbtn={s16img9} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img10} imgbtn={s16img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img11} imgbtn={s16img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img12} imgbtn={s16img12} />
-                    </div>
-                    
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s16img13} imgbtn={s16img14} />
-                    </div>
-                                        
-                </div>
-
-
-
-                {/* SEMANA ------ 17 -------- */}
-
-
-                <div className="aviso-prova">
-                    <h3 className="prova-tarefa"> Tarefa semanal 17</h3>
-                    <p className="texto-prova">20/julho até 26/julho</p>
-                    <span className="aviso-prova">(RECESSO ESCOLAR)</span>
-                </div>
-
-
-                {/* SEMANA ------ 18 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 18 </h3>
-                <p className="texto-tarefa">27/julho até 02/agosto</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jF5jpuSID4c"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9 ">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/OveCQa21KP4"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-3ewvovU0sI"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ZuT12stgzZs"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                  
-                </div>
-                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img1} imgbtn={s18img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img2} imgbtn={s18img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img3} imgbtn={s18img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img4} imgbtn={s18img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img5} imgbtn={s18img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img6} imgbtn={s18img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img7} imgbtn={s18img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img8} imgbtn={s18img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s18img9} imgbtn={s18img9} />
-                    </div>
-                    
-                </div>
-
-                {/* SEMANA ------ 19 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 19 </h3>
-                <p className="texto-tarefa">03/agosto até 09/agosto</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yyu8ts2nZTI"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YF_lzstWkPQ"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VQ6Y6m0bOIk"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vQqOSpo40co"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                   
-                </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img1} imgbtn={s19img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img2} imgbtn={s19img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img3} imgbtn={s19img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img4} imgbtn={s19img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img5} imgbtn={s19img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img6} imgbtn={s19img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img7} imgbtn={s19img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img8} imgbtn={s19img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img9} imgbtn={s19img9} />
-                    </div>
-                  
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s19img10} imgbtn={s19img10} />
-                    </div>
-                                      
-                </div>
-               
-                {/* SEMANA ------ 20 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 20 </h3>
-                <p className="texto-tarefa">10/agosto até 16/agosto</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vQqOSpo40co"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/x5ygsbjotrw"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/uP-3tHt4SNc"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/wUfkkvZwCoQ"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 05</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Ato2JRyk0TM"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img1} imgbtn={s20img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img2} imgbtn={s20img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img3} imgbtn={s20img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img4} imgbtn={s20img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img5} imgbtn={s20img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img6} imgbtn={s20img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img7} imgbtn={s20img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img8} imgbtn={s20img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img9} imgbtn={s20img9} />
-                    </div>
-                   
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img10} imgbtn={s20img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img11} imgbtn={s20img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s20img12} imgbtn={s20img12} />
-                    </div>
-                    
-                   
-                </div>
-               
-
-                {/* SEMANA ------ 21 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 21 </h3>
-                <p className="texto-tarefa">17/agosto até 23/agosto</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/waIPnY6feQc"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-TZuP_vCEb4"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img1} imgbtn={s21img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img2} imgbtn={s21img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img3} imgbtn={s21img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img4} imgbtn={s21img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img5} imgbtn={s21img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img6} imgbtn={s21img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img7} imgbtn={s21img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img8} imgbtn={s21img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img9} imgbtn={s21img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img10} imgbtn={s21img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img11} imgbtn={s21img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s21img12} imgbtn={s21img12} />
-                    </div>
-                   
-
-                </div>
-                
-                {/* SEMANA ------ 22 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 22 </h3>
-                <p className="texto-tarefa">24/agosto até 30/agosto</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vo8A_YdMn0E"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/EnURcaTLs2M"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/QrJ4fvOtwE8"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    
-                   
-                </div>
-               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img1} imgbtn={s22img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img2} imgbtn={s22img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img3} imgbtn={s22img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img4} imgbtn={s22img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img5} imgbtn={s22img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img6} imgbtn={s22img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img7} imgbtn={s22img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img8} imgbtn={s22img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img9} imgbtn={s22img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img10} imgbtn={s22img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img11} imgbtn={s22img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s22img12} imgbtn={s22img12} />
-                    </div>
-
-                </div>
-               
-
-                {/* SEMANA ------ 23 -------- */}
-
-
-                <h3 className="titulo-tarefa">Tarefa Semanal 23 </h3>
-                <p className="texto-tarefa">31/agosto até 06/setembro</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/9w0OQjkjqOk"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-YMDRENrHqo"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/L99dtQFSUCQ"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/v4hVqKbyVc0"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 05</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/dkr9O-mpgTg"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 06</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/0qq8AKUlVkQ"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    
-                </div>
-                               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img1} imgbtn={s23img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img2} imgbtn={s23img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img3} imgbtn={s23img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img4} imgbtn={s23img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img5} imgbtn={s23img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img6} imgbtn={s23img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img7} imgbtn={s23img7} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img8} imgbtn={s23img8} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img9} imgbtn={s23img9} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img10} imgbtn={s23img10} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img11} imgbtn={s23img11} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s23img12} imgbtn={s23img12} />
-                    </div>
-                   
-
-                </div>
-
-                 {/* SEMANA ------ 24 -------- */}
-
-
-                 <h3 className="titulo-tarefa">Tarefa Semanal 24 </h3>
-                <p className="texto-tarefa">07/setembro até 13/setembro</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/bRaQN3_80ps"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YLUAMR2-rnI"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vfHPrwg9Ess"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 ">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hkdd6PLm4oY"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 05</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/PJS8hQcfmIk"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 06</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vb65zQuga9M"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s24img1} imgbtn={s24img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s24img2} imgbtn={s24img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s24img3} imgbtn={s24img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s24img4} imgbtn={s24img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s24img5} imgbtn={s24img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s24img6} imgbtn={s24img6} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s24img7} imgbtn={s24img7} />
-                    </div>
-                    
-
-                </div>
-                
-
-                 {/* SEMANA ------ 25 -------- */}
-
-
-                 <h3 className="titulo-tarefa">Tarefa Semanal 25 </h3>
-                <p className="texto-tarefa">14/setembro até 20/setembro</p>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 01</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Fr4t_5YkVv4"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 02</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/eBIcs4N8Nxg"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 03</p>
-                        <div class="embed-responsive embed-responsive-16by9">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UEwtY6kLQyI"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                    <div className="col-lg-6">
-                        <p className="texto-video-tarefa">Vídeo Aula 04</p>
-                        <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
-                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/6GF7r4dLwtA"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen="allowfullscreen"></iframe>
-                        </div>
-                    </div>
-                </div>
-               
-                               
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s25img1} imgbtn={s25img1} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s25img2} imgbtn={s25img2} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s25img3} imgbtn={s25img3} />
-                    </div>
-
-                </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s25img4} imgbtn={s25img4} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s25img5} imgbtn={s25img5} />
-                    </div>
-                    <div className="col-lg-4">
-                        <TarefaD img={s25img6} imgbtn={s25img6} />
-                    </div>
+            </div>
 
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s13img1} imgbtn={s13img3} />
                 </div>
-                <div className="row">
-                    <div className="col-lg-4">
-                        <TarefaD img={s25img7} imgbtn={s25img7} />
-                    </div>
-                                        
+                <div className="col-lg-4">
+                    <TarefaD img={s13img2} imgbtn={s13img4} />
                 </div>
-
-
-                  {/* SEMANA ------ 26 -------- */}
-
-
-                  <h3 className="titulo-tarefa">Tarefa Semanal 26 (PROVA E TRABALHO) </h3>
-                <p className="texto-tarefa">30/novembro até 06/dezembro</p>
 
-                <div className="row">
-                    <div className="col-lg-4">
-                        <p className="texto-tarefa">Prova de Inglês</p>
-                        <TarefaD img={s26img1} imgbtn={s26img2} />
-                    </div>
-                    <div className="col-lg-4">
-                    <p className="texto-tarefa">Trabalho Futebol</p>
-
-                        <TarefaD img={s26img3} imgbtn={s26img4} />
-                    </div>
-                    
-
-                </div>
-                
-                
 
             </div>
+
+
+            {/* SEMANA ------ 14 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 14 </h3>
+            <p className="texto-tarefa">29/junho até 05/julho</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/5zTg5gYJLNQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VEHThfl6in4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/H1pa1Ox33AY"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s14img1} imgbtn={s14img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img2} imgbtn={s14img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img3} imgbtn={s14img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s14img4} imgbtn={s14img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img5} imgbtn={s14img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img6} imgbtn={s14img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s14img7} imgbtn={s14img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img8} imgbtn={s14img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img9} imgbtn={s14img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s14img10} imgbtn={s14img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img11} imgbtn={s14img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img12} imgbtn={s14img12} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s14img13} imgbtn={s14img13} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s14img14} imgbtn={s14img14} />
+                </div>
+
+
+            </div>
+
+            {/* SEMANA ------ 15 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 15 </h3>
+            <p className="texto-tarefa">06/julho até 12/julho</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/y2bI9Sy_uEE"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/9dZ59RWUPH4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-zr5Eepluj4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/In9MVTxo814"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s15img1} imgbtn={s15img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s15img2} imgbtn={s15img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s15img3} imgbtn={s15img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s15img4} imgbtn={s15img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s15img5} imgbtn={s15img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s15img6} imgbtn={s15img6} />
+                </div>
+
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s15img7} imgbtn={s15img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s15img8} imgbtn={s15img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s15img9} imgbtn={s15img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s15img10} imgbtn={s15img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s15img11} imgbtn={s15img11} />
+                </div>
+
+
+            </div>
+
+            {/* SEMANA ------ 16 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 16 </h3>
+            <p className="texto-tarefa">13/julho até 19/julho</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/GfRRJ6psNso"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/oPw0DEYc1-A"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/a68Mvp8jGeA"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jF5jpuSID4c"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s16img1} imgbtn={s16img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img2} imgbtn={s16img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img3} imgbtn={s16img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s16img4} imgbtn={s16img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img5} imgbtn={s16img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img6} imgbtn={s16img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s16img7} imgbtn={s16img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img8} imgbtn={s16img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img9} imgbtn={s16img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s16img10} imgbtn={s16img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img11} imgbtn={s16img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s16img12} imgbtn={s16img12} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s16img13} imgbtn={s16img14} />
+                </div>
+
+            </div>
+
+
+
+            {/* SEMANA ------ 17 -------- */}
+
+
+            <div className="aviso-prova">
+                <h3 className="prova-tarefa"> Tarefa semanal 17</h3>
+                <p className="texto-prova">20/julho até 26/julho</p>
+                <span className="aviso-prova">(RECESSO ESCOLAR)</span>
+            </div>
+
+
+            {/* SEMANA ------ 18 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 18 </h3>
+            <p className="texto-tarefa">27/julho até 02/agosto</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/jF5jpuSID4c"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/OveCQa21KP4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-3ewvovU0sI"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/ZuT12stgzZs"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s18img1} imgbtn={s18img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s18img2} imgbtn={s18img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s18img3} imgbtn={s18img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s18img4} imgbtn={s18img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s18img5} imgbtn={s18img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s18img6} imgbtn={s18img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s18img7} imgbtn={s18img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s18img8} imgbtn={s18img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s18img9} imgbtn={s18img9} />
+                </div>
+
+            </div>
+
+            {/* SEMANA ------ 19 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 19 </h3>
+            <p className="texto-tarefa">03/agosto até 09/agosto</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/yyu8ts2nZTI"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YF_lzstWkPQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/VQ6Y6m0bOIk"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vQqOSpo40co"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s19img1} imgbtn={s19img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s19img2} imgbtn={s19img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s19img3} imgbtn={s19img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s19img4} imgbtn={s19img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s19img5} imgbtn={s19img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s19img6} imgbtn={s19img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s19img7} imgbtn={s19img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s19img8} imgbtn={s19img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s19img9} imgbtn={s19img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s19img10} imgbtn={s19img10} />
+                </div>
+
+            </div>
+
+            {/* SEMANA ------ 20 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 20 </h3>
+            <p className="texto-tarefa">10/agosto até 16/agosto</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vQqOSpo40co"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/x5ygsbjotrw"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/uP-3tHt4SNc"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/wUfkkvZwCoQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 05</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Ato2JRyk0TM"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s20img1} imgbtn={s20img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img2} imgbtn={s20img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img3} imgbtn={s20img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s20img4} imgbtn={s20img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img5} imgbtn={s20img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img6} imgbtn={s20img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s20img7} imgbtn={s20img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img8} imgbtn={s20img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img9} imgbtn={s20img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s20img10} imgbtn={s20img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img11} imgbtn={s20img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s20img12} imgbtn={s20img12} />
+                </div>
+
+
+            </div>
+
+
+            {/* SEMANA ------ 21 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 21 </h3>
+            <p className="texto-tarefa">17/agosto até 23/agosto</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/waIPnY6feQc"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-TZuP_vCEb4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s21img1} imgbtn={s21img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img2} imgbtn={s21img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img3} imgbtn={s21img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s21img4} imgbtn={s21img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img5} imgbtn={s21img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img6} imgbtn={s21img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s21img7} imgbtn={s21img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img8} imgbtn={s21img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img9} imgbtn={s21img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s21img10} imgbtn={s21img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img11} imgbtn={s21img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s21img12} imgbtn={s21img12} />
+                </div>
+
+
+            </div>
+
+            {/* SEMANA ------ 22 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 22 </h3>
+            <p className="texto-tarefa">24/agosto até 30/agosto</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vo8A_YdMn0E"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/EnURcaTLs2M"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/QrJ4fvOtwE8"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s22img1} imgbtn={s22img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img2} imgbtn={s22img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img3} imgbtn={s22img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s22img4} imgbtn={s22img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img5} imgbtn={s22img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img6} imgbtn={s22img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s22img7} imgbtn={s22img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img8} imgbtn={s22img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img9} imgbtn={s22img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s22img10} imgbtn={s22img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img11} imgbtn={s22img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s22img12} imgbtn={s22img12} />
+                </div>
+
+            </div>
+
+
+            {/* SEMANA ------ 23 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 23 </h3>
+            <p className="texto-tarefa">31/agosto até 06/setembro</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/9w0OQjkjqOk"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/-YMDRENrHqo"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/L99dtQFSUCQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/v4hVqKbyVc0"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 05</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/dkr9O-mpgTg"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 06</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/0qq8AKUlVkQ"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s23img1} imgbtn={s23img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img2} imgbtn={s23img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img3} imgbtn={s23img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s23img4} imgbtn={s23img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img5} imgbtn={s23img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img6} imgbtn={s23img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s23img7} imgbtn={s23img7} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img8} imgbtn={s23img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img9} imgbtn={s23img9} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s23img10} imgbtn={s23img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img11} imgbtn={s23img11} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s23img12} imgbtn={s23img12} />
+                </div>
+
+
+            </div>
+
+            {/* SEMANA ------ 24 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 24 </h3>
+            <p className="texto-tarefa">07/setembro até 13/setembro</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/bRaQN3_80ps"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/YLUAMR2-rnI"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/vfHPrwg9Ess"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 ">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/hkdd6PLm4oY"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 05</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/PJS8hQcfmIk"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 06</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Vb65zQuga9M"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s24img1} imgbtn={s24img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s24img2} imgbtn={s24img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s24img3} imgbtn={s24img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s24img4} imgbtn={s24img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s24img5} imgbtn={s24img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s24img6} imgbtn={s24img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s24img7} imgbtn={s24img7} />
+                </div>
+
+
+            </div>
+
+
+            {/* SEMANA ------ 25 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 25 </h3>
+            <p className="texto-tarefa">14/setembro até 20/setembro</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/Fr4t_5YkVv4"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 02</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/eBIcs4N8Nxg"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 03</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/UEwtY6kLQyI"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 04</p>
+                    <div class="embed-responsive embed-responsive-16by9 tarefa-video-posicao">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/6GF7r4dLwtA"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s25img1} imgbtn={s25img1} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s25img2} imgbtn={s25img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s25img3} imgbtn={s25img3} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s25img4} imgbtn={s25img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s25img5} imgbtn={s25img5} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s25img6} imgbtn={s25img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s25img7} imgbtn={s25img7} />
+                </div>
+
+            </div>
+
+
+            {/* SEMANA ------ 26 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 26 (PROVA E TRABALHO) </h3>
+            <p className="texto-tarefa">30/novembro até 06/dezembro</p>
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <p className="texto-tarefa">Prova de Inglês</p>
+                    <TarefaD img={s26img1} imgbtn={s26img2} />
+                </div>
+                <div className="col-lg-4">
+                    <p className="texto-tarefa">Trabalho Futebol</p>
+
+                    <TarefaD img={s26img3} imgbtn={s26img4} />
+                </div>
+
+
+            </div>
+
+
+            {/* SEMANA ------ 27 -------- */}
+
+
+            <h3 className="titulo-tarefa">Tarefa Semanal 27 </h3>
+            <p className="texto-tarefa">14/desembro até 20/desembro</p>
+            <div className="row">
+                <div className="col-lg-6">
+                    <p className="texto-video-tarefa">Vídeo Aula 01</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe max-width="500" max-height="260" src="https://www.youtube.com/embed/y63gmzfSu_g"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen="allowfullscreen"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s27img1} imgbtn={s27img2} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s27img3} imgbtn={s27img4} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s27img5} imgbtn={s27img6} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s27img7} imgbtn={s27img8} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s27img9} imgbtn={s27img10} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s27img11} imgbtn={s27img12} />
+                </div>
+
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
+                    <TarefaD img={s27img13} imgbtn={s27img14} />
+                </div>
+                <div className="col-lg-4">
+                    <TarefaD img={s27img15} imgbtn={s27img16} />
+                </div>
+
+            </div>
+
+
+
+        </div>
     )
 };
