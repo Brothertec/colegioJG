@@ -37,7 +37,7 @@ export default function Footer() {
                                     <IconWhithText iconProps={['fas', 'phone-alt']} text='(61) 3488-1608' />
                                 </li>
                                 <li className="centro centro2 centro3">
-                                    <IconWhithText iconProps={['fab', 'whatsapp']} text='(61) 9 9155-7717' />
+                                    <IconWhithText iconProps={['fab', 'whatsapp']} text='(61) 9 9174-4443' />
                                 </li>
                                 <li className="centro">
                                     <IconWhithText iconProps={['fas', 'envelope']} text='escolajardimgetsemani@hotmail.com' />
@@ -49,7 +49,7 @@ export default function Footer() {
                         <div className=" col-lg-4">
                             <div className="marge2">
                                 <a className="icones" href="https://whats.link/colegioejg"><span><FontAwesomeIcon icon={['fab', 'whatsapp-square']} /></span></a>
-                                <a className="iconec" href="https://www.facebook.com/Colégio-Jardim-Getsêmani-107998397345213"><span><FontAwesomeIcon icon={['fab', 'facebook-square']} /></span></a>
+                                <a className="iconec" href="https://www.facebook.com/colegiojardimgetsemani"><span><FontAwesomeIcon icon={['fab', 'facebook-square']} /></span></a>
                                 <a className="icones" href="https://www.instagram.com/colegiojardimgetsemani/?hl=pt-br"><span><FontAwesomeIcon icon={['fab', 'instagram-square']} /></span></a>
                             </div>
                         </div>
