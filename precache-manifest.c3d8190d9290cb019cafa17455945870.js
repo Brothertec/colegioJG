@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca3dec35790c300c80a94c36be686336",
+    "revision": "6647fef9cc1d946613e319a042c68dc8",
     "url": "/index.html"
   },
   {
-    "revision": "bf91974049c404a60876",
+    "revision": "920d77f054d6080f8e84",
     "url": "/static/css/main.9b4d5152.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ef227eec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bf91974049c404a60876",
-    "url": "/static/js/main.49ff68f4.chunk.js"
+    "revision": "920d77f054d6080f8e84",
+    "url": "/static/js/main.f0b6bb3c.chunk.js"
   },
   {
     "revision": "151e3359e47a600cfaea",
@@ -7172,8 +7172,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/menino.c5e581aa.jpg"
   },
   {
-    "revision": "c9859aacb8fdb820c40670ec76f791f1",
-    "url": "/static/media/modalmatricula.c9859aac.jpg"
+    "revision": "480c1383ce24cdf78002303e37bd79f5",
+    "url": "/static/media/modalmatricula.480c1383.jpeg"
   },
   {
     "revision": "927bd64c9b672bdf12045f05fe8cd222",
