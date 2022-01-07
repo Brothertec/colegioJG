@@ -48,7 +48,7 @@ export default function Footer() {
 
                         <div className=" col-lg-4">
                             <div className="marge2">
-                                <a className="icones" href="https://whats.link/colegioejg"><span><FontAwesomeIcon icon={['fab', 'whatsapp-square']} /></span></a>
+                                <a className="icones" href="https://wa.me/qr/DSNKCLID5RSGH1"><span><FontAwesomeIcon icon={['fab', 'whatsapp-square']} /></span></a>
                                 <a className="iconec" href="https://www.facebook.com/colegiojardimgetsemani"><span><FontAwesomeIcon icon={['fab', 'facebook-square']} /></span></a>
                                 <a className="icones" href="https://www.instagram.com/colegiojardimgetsemani/?hl=pt-br"><span><FontAwesomeIcon icon={['fab', 'instagram-square']} /></span></a>
                             </div>

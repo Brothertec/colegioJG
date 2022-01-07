@@ -9,6 +9,10 @@
 .img3{
     background-image: url('../../../image/img-fundo3.png');
 }
+.img4{
+    background-image: url('../../../image/flyinfant.jpg');
+}
+
 
 
 .center{
@@ -42,6 +46,7 @@
         height: 744px;
     }
 }
+
 .carousel-titulo{
     font-style: normal;
     font-weight: bold;
