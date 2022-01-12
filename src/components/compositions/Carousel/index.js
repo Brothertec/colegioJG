@@ -38,7 +38,7 @@ export default function Carousel() {
                         <div className="center">
                             <p className="carousel-texto">Em virtude da pandemia do Covid-19, as aulas e atividades estão sendo ministradas remotamente em nosso site.</p>
                             <p className="carousel-texto">Para mais informações, entre em contato:</p>
-                            <p className="carousel-texto2">(61) 3488-1608<br /> (61) 99155-7717 (whatsapp) <br />escolajardimgetsemani@hotmail.com</p>
+                            <p className="carousel-texto2">(61) 3488-1608<br /> (61) 99174-4443 (whatsapp) <br />escolajardimgetsemani@hotmail.com</p>
                             <p className="Carousel-mat">Matrículas abertas</p>
                         </div>
                     </div>
