@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6647fef9cc1d946613e319a042c68dc8",
+    "revision": "7f68adde52fb5b92e0063e86a6ee75d9",
     "url": "/index.html"
   },
   {
-    "revision": "920d77f054d6080f8e84",
-    "url": "/static/css/main.9b4d5152.chunk.css"
+    "revision": "f55a98419a43cb768de3",
+    "url": "/static/css/main.93b9808b.chunk.css"
   },
   {
     "revision": "76925a0161fcc7a07a76",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.ef227eec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "920d77f054d6080f8e84",
-    "url": "/static/js/main.f0b6bb3c.chunk.js"
+    "revision": "f55a98419a43cb768de3",
+    "url": "/static/js/main.d05e8769.chunk.js"
   },
   {
     "revision": "151e3359e47a600cfaea",
@@ -442,6 +442,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f16a96f0b8b820175ef7d37cc17316ef",
     "url": "/static/media/familia.f16a96f0.jpg"
+  },
+  {
+    "revision": "1f2a490bae5a8ade1e19670256fe16f4",
+    "url": "/static/media/flyinfant.1f2a490b.jpg"
   },
   {
     "revision": "61182d30e4287f0e731660245000cdaf",

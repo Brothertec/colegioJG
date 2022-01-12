@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b4d5152.chunk.css",
-    "main.js": "/static/js/main.f0b6bb3c.chunk.js",
-    "main.js.map": "/static/js/main.f0b6bb3c.chunk.js.map",
+    "main.css": "/static/css/main.93b9808b.chunk.css",
+    "main.js": "/static/js/main.d05e8769.chunk.js",
+    "main.js.map": "/static/js/main.d05e8769.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.682a61c5.js",
     "runtime-main.js.map": "/static/js/runtime-main.682a61c5.js.map",
     "static/js/2.ef227eec.chunk.js": "/static/js/2.ef227eec.chunk.js",
     "static/js/2.ef227eec.chunk.js.map": "/static/js/2.ef227eec.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c3d8190d9290cb019cafa17455945870.js": "/precache-manifest.c3d8190d9290cb019cafa17455945870.js",
+    "precache-manifest.4ece40826b8426c81dec07a4a0b5c865.js": "/precache-manifest.4ece40826b8426c81dec07a4a0b5c865.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9b4d5152.chunk.css.map": "/static/css/main.9b4d5152.chunk.css.map",
+    "static/css/main.93b9808b.chunk.css.map": "/static/css/main.93b9808b.chunk.css.map",
     "static/js/2.ef227eec.chunk.js.LICENSE.txt": "/static/js/2.ef227eec.chunk.js.LICENSE.txt",
     "static/media/3marias.jpg": "/static/media/3marias.6eaf0a57.jpg",
     "static/media/3mariasbolosmeninos.pdf": "/static/media/3mariasbolosmeninos.3a4ba60e.pdf",
@@ -103,6 +103,7 @@
     "static/media/estrelas.jpg": "/static/media/estrelas.97a7b23e.jpg",
     "static/media/fada.jpg": "/static/media/fada.4e5d3597.jpg",
     "static/media/familia.jpg": "/static/media/familia.f16a96f0.jpg",
+    "static/media/carousel.css": "/static/media/img-fundo3.c8ef6ef0.png",
     "static/media/foguete.jpg": "/static/media/foguete.61182d30.jpg",
     "static/media/fotos-musicalizacao.png": "/static/media/fotos-musicalizacao.5c3dcfe4.png",
     "static/media/futebol.jpg": "/static/media/futebol.6c34a84d.jpg",
@@ -113,7 +114,6 @@
     "static/media/historia.docx": "/static/media/historia.285975a0.docx",
     "static/media/historia.jpg": "/static/media/historia.b9ffa5bc.jpg",
     "static/media/imagem-area-aluno.png": "/static/media/imagem-area-aluno.521bf45e.png",
-    "static/media/carousel.css": "/static/media/img-fundo3.c8ef6ef0.png",
     "static/media/img1.jpg": "/static/media/img1.ff5fab53.jpg",
     "static/media/img1.png": "/static/media/img1.f8eb8e1e.png",
     "static/media/img1.jpeg": "/static/media/img1.c126a57b.jpeg",
@@ -217,7 +217,7 @@
   "entrypoints": [
     "static/js/runtime-main.682a61c5.js",
     "static/js/2.ef227eec.chunk.js",
-    "static/css/main.9b4d5152.chunk.css",
-    "static/js/main.f0b6bb3c.chunk.js"
+    "static/css/main.93b9808b.chunk.css",
+    "static/js/main.d05e8769.chunk.js"
   ]
 }
