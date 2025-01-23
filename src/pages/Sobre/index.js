@@ -20,27 +20,38 @@ export default function Sobre() {
                     </div>
                     <div className="row">
                         <div className="col-md-8 offset-md-2">
-                            <p className="texto-sobre">O colégio jardim getsêmani enfatiza o processo educativo de forma integral e incentiva
-                            a interação entre a teoria e a prática, o pensar e o fazer, a razão e a emoção, o individual e o coletivo, a causa
-                             e o efeito; entende que tanto os educadores como os educandos podem ensinar e aprender.</p>
-                            <p className="texto-sobre">Com objetivos educacionais amplos, o currículo promove a excelência acadêmica e contempla
-                            os conteúdos necessários para a prática da cidadania responsável, contribuindo para o desenvolvimento equilibrado da
-                            vida espiritual, intelectual, física, social, emocional e vocacional dos alunos. Prepara-os para exercer a cidadania
-                            de maneira competente e comprometida com a sociedade e com Deus.</p>
-                            <p className="texto-sobre">A nossa proposta pedagógica da rede educacional visa atender às necessidades gerais de
-                            aprendizagens formando alunos pensantes e criativos. Além disso, incentiva a transformação de conhecimentos em
-                            atitudes, a partir de soluções de problemas relacionados ao cotidiano dos alunos.</p>
-                            <p className="texto-sobre">Fundamentada nas premissas de uma educação cristã, essa proposta tem como compromisso
-                            nortear as atividades didáticas, sistematizando a prática pedagógica e o cotidiano escolar.</p>
-                            <p className="texto-sobre">Para atender a demanda imposta na atualidade a escola vem investindo em:</p>
-                            <p className="subtitulo-sobre">Salas virtuais</p>
-                            <p className="texto-sobre">De onde estiver o aluno pode acessar em horário pré definido em relatório de atividade semanal
-                             suas aulas através do zoom e jitsi e as aulas ficam disponíveis no site.</p>
-                            <p className="subtitulo-sobre">Vídeo aulas gravadas</p>
-                            <p className="texto-sobre">Para os alunos nos quais não podem por algum motivo acompanhar as aulas online, disponibilizamos
-                             vídeo aulas gravadas com os conteúdos ministrados pelos professores.</p>
-                            <p className="subtitulo-sobre">Tarefas</p>
-                            <p className="texto-sobre">Tarefas disponibilizadas para download diretamente do site atualizadas semanalmente.</p>
+                            <p className="texto-sobre">O Colégio Jardim Getsêmani surge com o intuito de seus fundadores de levar
+                                educação de qualidade através de uma educação que tem como pilar principal
+                                a educação vinda de Deus retificada ao maior livro que o homem tem acesso a
+                                Bíblia. Aliando o conhecimento da palavra de Deus com o construtivismo
+                                (Piaget).</p>
+
+                            <p className="subtitulo-sobre">Propósitos Gerais:</p>
+                            <p className="texto-sobre">1. Proporcionar educação de qualidade para desenvolver habilidades e
+                                conhecimentos.</p>
+                            <p className="texto-sobre">2. Fomentar o crescimento integral (físico, emocional, cognitivo e social) dos
+                                alunos.</p>
+                            <p className="texto-sobre">3. Preparar cidadãos críticos, criativos e responsáveis para o futuro.</p>
+                            <p className="texto-sobre">4. Promover valores como respeito, empatia e inclusão.</p>
+                            <p className="texto-sobre">5. Desenvolver habilidades para o mercado de trabalho.</p>
+                            <p className="subtitulo-sobre">Propósitos Sociais:</p>
+                            <p className="texto-sobre">1. Reduzir desigualdades sociais através da educação.</p>
+                            <p className="texto-sobre">2. Promover a igualdade de oportunidades.</p>
+                            <p className="subtitulo-sobre">Missão:</p>
+                            <p className="texto-sobre">Desenvolver uma comunidade de aprendizado vibrante, onde todos alcançam
+                                seu potencial e o amor ao semelhante. Ser referência em educação, promovendo
+                                valores, conhecimento e inovação.</p>
+                            <p className="subtitulo-sobre">Visão:</p>
+                            <p className="texto-sobre">Ser uma instituição de excelência educacional, formando líderes críticos e
+                                criativos para o futuro. “Que ama a Deus e seu próximo e tem a bíblia como seu
+                                livro guia.</p>
+                            <p className="subtitulo-sobre">Nossa Filosofia:</p>
+                            <p className="texto-sobre">1. Ensino baseado nas Escrituras.</p>
+                            <p className="texto-sobre">2. Abordagem integral (física, emocional, cognitiva e espiritual).</p>
+                            <p className="texto-sobre">3. Educação personalizada.</p>
+                            <p className="texto-sobre">4. Fomento à criatividade e inovação.</p>
+                            <p className="texto-sobre">5. Desenvolvimento de habilidades sociais e emocionais.</p>
+
                         </div>
                     </div>
                 </div>

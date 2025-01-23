@@ -22,9 +22,9 @@ export default function Footer() {
                             <div className="marge1">
                                 <ul className="lista1">
                                     <li>  <LinkWithIconFooter text="Sobre Nós" path="/Sobre" /></li>
-                                    <li>  <LinkWithIconFooter text="Musicalização" path="/Musicalizacao" /></li>
-                                    <li>  <LinkWithIconFooter text="Tarefas" path="/Aulas" /></li>
-                                    <li>  <LinkWithIconFooter text="Doações" path="/Doacao" /></li>
+                                    <li>  <LinkWithIconFooter text="Matriculas" path="/Musicalizacao" /></li>
+                                    <li>  <LinkWithIconFooter text="Trabalhe Conosco" path="/doacao" /></li>
+                                    
                                 </ul>
                             </div>
                         </div>

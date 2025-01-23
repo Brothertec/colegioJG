@@ -167,3 +167,62 @@
     background-color:#b1211a;
     border-color: #b1211a;
 }
+
+.btn-modal-matricula{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    background-color:  #42154E;
+    border-color:  #42154E;
+}
+
+.btn-modal-matricula:hover{
+    color: #E9CC1D;
+    background-color:#42154E;
+    border-color: #42154E;
+}
+
+.btn-modal-matricula:focus{
+    color: #E9CC1D;
+    background-color:#42154E;
+    border-color: #42154E;
+}
+
+.posição-footer-modal-matricula{
+    display: flex;
+    justify-content: center;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+}
+
+.area-aluno-titulo-card{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: fantasy;
+
+}
+@media(min-width:992px) {
+    .area-aluno-titulo-card {
+        font-size: 24px;
+    }
+}
+
+.area-aluno-texto {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+@media(min-width:992px) {
+    .area-aluno-texto {
+        font-size: 24px;
+    }
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

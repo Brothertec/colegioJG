@@ -1,5 +1,5 @@
 .total{
-    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #CAD9EE 100%), #FFFFFF;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFAA01 100%), #FFFFFF;
     padding-bottom: 54px;
     padding-top: 33px;
 }
@@ -119,6 +119,8 @@ border-radius: 4px;
     font-size: 20px;
     line-height: 150%;
     color: #3A6CB2;
+    display: flex;
+    justify-content: center;
 }
 .link-doacao a {
     padding-left: 28px;

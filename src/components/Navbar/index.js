@@ -1,7 +1,8 @@
 import React from 'react';
-import logoJG from '../../image/logonn.png';
+import logoJG from '../../image/logonnn.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUsers, faMusic,faChalkboardTeacher, faHandHoldingHeart, faLock, faBars} from '@fortawesome/free-solid-svg-icons';
+
 
 
 
@@ -31,15 +32,11 @@ export default function Navbar() {
                                 <NavLink activeClassName="selected" exact to="/sobre" className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faUsers}/></span>Sobre Nós</NavLink>
                             </li>
                             <li className="nav-item item-nav">
-                                <NavLink activeClassName="selected" exact to="/musicalizacao" className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faMusic}/></span>Musicalização<span className="icone2"><FontAwesomeIcon   icon={faLock}/></span></NavLink>
+                                <NavLink activeClassName="selected" exact to="/Musicalizacao" className="nav-link nav-link--marcador" ><span className="icone"><FontAwesomeIcon icon={faChalkboardTeacher}/></span>Matriculas<span className="icone2 icone3"><FontAwesomeIcon  icon={faLock}/></span></NavLink>
                             </li>
                             <li className="nav-item item-nav">
-                                <NavLink activeClassName="selected" exact to="/aulas" className="nav-link nav-link--marcador" ><span className="icone"><FontAwesomeIcon icon={faChalkboardTeacher}/></span>Aulas<span className="icone2 icone3"><FontAwesomeIcon  icon={faLock}/></span></NavLink>
+                                <NavLink activeClassName="selected" exact to="/doacao" className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faHandHoldingHeart}/></span>Trabalhe Conosco</NavLink>
                             </li>
-                            <li className="nav-item item-nav">
-                                <NavLink activeClassName="selected" exact to="/doacao" className="nav-link nav-link--marcador" href="#"><span className="icone"><FontAwesomeIcon icon={faHandHoldingHeart}/></span>Doações</NavLink>
-                            </li>
-
 
                         </ul>
                     </div>
