@@ -1,19 +1,22 @@
 .img1{
-    background-image: url('../../../image/img-fundo.png');
+    background-image: url('../../../image/img-fundo1.png');
     
 }
 .img2{
-    background-image: url('../../../image/img-fundo2.png');
+    background-image: url('../../../image/img-fundo22.png');
 }
 
 .img3{
-    background-image: url('../../../image/img-fundo3.png');
+    background-image: url('../../../image/img-fundo33.png');
 }
 .img4{
-    background-image: url('../../../image/flyinfant.jpg');
+    background-image: url('../../../image/img-fundo4.png');
 }
 .img5{
-    background-image: url('../../../image/img-fundo33.jpg');
+    background-image: url('../../../image/img-fundo5.png');
+}
+.img6{
+    background-image: url('../../../image/img-fundo6.png');
 }
 
 

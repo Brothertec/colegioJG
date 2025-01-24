@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import imgmatricula from '../../image/modalmatricula.jpg';
+import imgmatricula from '../../image/modalmatricula1.png';
 
 import './modalmatricula.css';
 

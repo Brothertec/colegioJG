@@ -1,7 +1,7 @@
 .fundo{
     padding-top: 15px;
     padding-bottom: 8px;
-    background-color: #D43F36;
+    background-color: #42154E;
 }
 .fundo-navbar{
     background-color: #F0F0F5;
@@ -31,14 +31,14 @@
     padding: 4px 14px;
     font-size: 30px;
     background-color: #FFFFFF;
-    border:1px solid #9C3B21;
+    border:1px solid #42154E;
     box-sizing: border-box;
     border-radius: 4px;
 }
 .botao-interior{
     left: 28.57%;
     right: 28.57%;
-    color: #D43F36;
+    color: #42154E;
 }
 .navbar-nav{
     display: flex;
@@ -59,9 +59,9 @@
 }
 
 ul {
-    border-left: 1px solid #D43F36;
-    border-top: 1px solid #D43F36;
-    border-right: 1px solid #D43F36;
+    border-left: 1px solid #42154E;
+    border-top: 1px solid #42154E;
+    border-right: 1px solid #42154E;
 }
 
 @media (min-width:992px){
@@ -74,7 +74,7 @@ ul {
     
     height: 44px;
     left: 15px;
-    border-bottom: 1px solid #D43F36;
+    border-bottom: 1px solid #42154E;
     box-sizing: border-box;
 }
 @media (min-width:992px){
@@ -129,7 +129,7 @@ ul {
 
 .icone2{
     
-    color: #D43F36;
+    color: #42154E;
     border: 1px solid;
     box-sizing: border-box;
     background: #F3D2C9;
@@ -171,7 +171,7 @@ ul {
     font-style: normal;
     font-weight: bold;
     color: white;
-    background-color: #D43F36;
+    background-color: #42154E;
 }
 
 .navbar .nav-item .selected span.icone{

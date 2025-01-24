@@ -23,11 +23,8 @@ export default function AprendizadoAliado() {
                     <img className='aprendizado-aliado-img img-fluid' src={img5} alt="" />
                 </div>
             </div>
-            <div className="leaf-image">   
-            </div>
-            <div className="green-separator">
-
-            </div>
+           
+           
         </section>
     );
 }
