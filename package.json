@@ -41,6 +41,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+ dependabot/npm_and_yarn/gh-pages-5.0.0
+    "gh-pages": "^5.0.0"
+
+ 
   }
 }
