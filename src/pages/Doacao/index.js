@@ -3,9 +3,9 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/compositions/Footer';
 import Copyright from '../../components/Copyright';
 import SectionTitle from '../../components/SectionTitle';
-import CardDoacao from '../../components/CardDoacao';
+
 import Mapa from '../../components/compositions/Mapa';
-import ImgPicPay from '../../image/pickpay.png';
+
 import IMGT from '../../image/formulario 2.png';
 
 

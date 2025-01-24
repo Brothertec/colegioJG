@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionTitle from '../../SectionTitle';
-import LinkWithIcon from '../../LinkWithIcon';
-import Foto1 from '../../../image/Rectangle 10.png'
+
 import Foto2 from '../../../image/iconfinder_social-media_donate_5022552 1.png'
 
 

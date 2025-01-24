@@ -1,13 +1,11 @@
 import React from 'react';
-import LinkBorder from '../../LinkBorder';
-import LinkWithIcon from '../../LinkWithIcon';
-import SectionTitle from '../../SectionTitle';
+
 
 import IMGBerçario from '../../../image/card-berçario.png';
 import IMGMaternal from '../../../image/card-maternal.png';
 import IMGPreescola from '../../../image/card-preescola.png';
 import IMGFundamental from '../../../image/card-ensinofundamental.png';
-import fotosMusicalizacao from '../../../image/fotos-musicalizacao.png';
+
 
 import './area-aluno.css';
 
